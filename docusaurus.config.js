@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'ESX Infinity',
+  title: 'ES-Extended',
   tagline: 'Documentation',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -41,7 +41,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ESX Infinity',
+        title: 'ES-Extended',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -104,7 +104,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ESX Framework.`,
       },
       prism: {
         theme: lightCodeTheme,

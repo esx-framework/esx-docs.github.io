@@ -15,8 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Powered by React',
-    header: "MS",
-    // Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can

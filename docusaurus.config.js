@@ -54,6 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/convert', label: 'Conversion', position: 'left'},
           {
             href: 'https://github.com/esx-framework/esx_infinity',
             label: 'GitHub',

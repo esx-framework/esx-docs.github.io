@@ -123,15 +123,15 @@ const config = {
           items: [
             {
               label: "Infinity",
-              to: "/docs/infinity",
+              to: "/docs/legacy/installation/",
             },
             {
               label: "legacy",
-              to: "/docs/infinity/installation/",
+              to: "/docs/legacy/installation/",
             },
             {
               label: "reborn",
-              to: "/docs/reborn/",
+              to: "/docs/legacy/installation/",
             },
           ],
         },

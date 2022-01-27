@@ -1,4 +1,4 @@
-# ESX.SetPlayerData
+# SetPlayerData
 
 ```lua
 ESX.SetPlayerData(key, val)

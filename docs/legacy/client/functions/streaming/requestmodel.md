@@ -1,4 +1,4 @@
-# ESX.Streaming.RequestModel
+# Streaming.RequestModel
 
 ```lua
 ESX.Streaming.RequestModel(model, cb)

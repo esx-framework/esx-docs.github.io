@@ -1,4 +1,4 @@
-# ESX.RegisterUsableItem
+# RegisterUsableItem
 
 ```lua
 ESX.RegisterUsableItem(item, cb)
@@ -13,7 +13,7 @@ This function registers an item as usable.
 | item     | string    | No       | -             | Item to register as usable |
 | cb       | function  | No       | -             | Callback function          |
 
-## ESX.RegisterUsableItem Example
+## RegisterUsableItem Example
 
 ```lua
 ESX.RegisterUsableItem('bread', function(playerId)

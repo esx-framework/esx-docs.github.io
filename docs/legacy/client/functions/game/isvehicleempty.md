@@ -1,4 +1,4 @@
-# ESX.Game.IsVehicleEmpty
+# IsVehicleEmpty
 
 ```lua
 ESX.Game.IsVehicleEmpty(vehicle)

@@ -1,4 +1,4 @@
-# ESX.TriggerServerCallback
+# TriggerServerCallback
 
 ```lua
 ESX.TriggerServerCallback(name, cb, args)
@@ -17,7 +17,7 @@ This function triggers a server callback. See [ESX.RegisterServerCallback](../..
 | cb       | function  | No       | -             | The returned function when the async task has completed. The invoked function a varied size of arguments depending on how many arguments are parsed from the server |
 | args     | any       | Yes      | -             | Any arguments to parse to the async function                                                                                                                        |
 
-## ESX.TriggerServerCallback Example
+## TriggerServerCallback Example
 
 ```
 local myAgument = 'hello'

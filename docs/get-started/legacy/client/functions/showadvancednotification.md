@@ -1,4 +1,4 @@
-# ESX.ShowAdvancedNotification
+# ShowAdvancedNotification
 
 ```lua
 ESX.ShowAdvancedNotification(sender, subject, msg, textureDict, iconType, flash, saveToBrief, hudColorIndex)
@@ -19,7 +19,7 @@ This function shows an advanced notification.
 | savetoBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                       |
 | hudColorIndex | number    | Yes      | nil           | The background color, see https://gyazo.com/68bd384455fceb0a85a8729e48216e15 for available colors |
 
-## ESX.ShowAdvancedNotification Example
+## ShowAdvancedNotification Example
 
 ```lua
 function notification(msg)

@@ -1,4 +1,4 @@
-# ESX.Game.GetPedMugshot
+# GetPedMugshot
 
 ```lua
 local mugshot, mugshotStr = ESX.Game.GetPedMugshot(ped)
@@ -12,7 +12,7 @@ This function generates a mugshot of the ped usable in various applications.
 |----------|-----------|----------|---------------|----------------|
 | ped      | string    | No       | -             | The ped handle |
 
-## ESX.Game.GetPedMugshot Example
+## GetPedMugshot Example
 
 !!! warning
     Be sure to use `UnregisterPedheadshot(mugshot)` after using it, because the game only allows you 34 mugshots, and you won't be allowed to use mugshot once this limit is reached if you don't unregister it.

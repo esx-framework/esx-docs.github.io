@@ -1,4 +1,4 @@
-# ESX.GetWeapon
+# GetWeapon
 
 ```lua
 ESX.GetWeapon(weaponName)

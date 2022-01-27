@@ -13,23 +13,14 @@ import SvgImage from "../components/SvgImage"
 import doCss from "../css/index/docker.module.css"
 import feCss from "../css/index/feature.module.css"
 import flCss from "../css/index/flashy.module.css"
-import inCss from "../css/index/integration.module.css"
+
 import juCss from "../css/index/jumbotron.module.css"
 import meCss from "../css/index/menu.module.css"
 import shCss from "../css/index/showcase.module.css"
-import usCss from "../css/index/usp.module.css"
 import prCss from "../css/property.module.css"
 import seCss from "../css/section.module.css"
 
 import GithubLogo from "../assets/img/github.svg"
-import PgLogo from "../assets/img/pages/index/integrations/pg.svg"
-import GrafanaLogo from "../assets/img/pages/index/integrations/grafana.svg"
-import KafkaLogo from "../assets/img/pages/index/integrations/kafka.svg"
-import PythonLogo from "../assets/img/pages/index/integrations/python.svg"
-import PandasLogo from "../assets/img/pages/index/integrations/pandas.svg"
-import InfluxdataLogo from "../assets/img/pages/index/integrations/influxdata.svg"
-import TableauLogo from "../assets/img/pages/index/integrations/tableau.svg"
-import MetabaseLogo from "../assets/img/pages/index/integrations/metabase.svg"
 import DockerLogo from "../assets/img/pages/index/docker.svg"
 import PgwireLogo from "../assets/img/pages/index/pgwire.svg"
 import FossIcon from "../assets/img/pages/index/foss.svg"
@@ -39,14 +30,14 @@ import NavigateTimeIcon from "../assets/img/pages/index/navigateTime.svg"
 import MergeTimeIcon from "../assets/img/pages/index/mergeTime.svg"
 
 const FeatureTabs = () => {
-  const [opened, setOpened] = useState<"digital" | "realtime" | "integration">(
-    "digital",
+  const [opened, setOpened] = useState<"optimised" | "features" | "integration">(
+    "optimised",
   )
   const handleClickIs = useCallback(() => {
-    setOpened("digital")
+    setOpened("optimised")
   }, [])
   const handleClickGoodFor = useCallback(() => {
-    setOpened("realtime")
+    setOpened("features")
   }, [])
   const handleClickIsNot = useCallback(() => {
     setOpened("integration")
@@ -76,17 +67,17 @@ const FeatureTabs = () => {
               className={meCss.menu__button}
               onClick={handleClickIs}
               size="small"
-              variant={opened === "digital" ? "primary" : "tertiary"}
+              variant={opened === "optimised" ? "primary" : "tertiary"}
             >
-              Digital transformation
+              Optimisation
             </Button>
             <Button
               className={meCss.menu__button}
               onClick={handleClickGoodFor}
               size="small"
-              variant={opened === "realtime" ? "primary" : "tertiary"}
+              variant={opened === "features" ? "primary" : "tertiary"}
             >
-              Real-time insights
+              Features
             </Button>
             <Button
               className={meCss.menu__button}
@@ -94,32 +85,31 @@ const FeatureTabs = () => {
               size="small"
               variant={opened === "integration" ? "primary" : "tertiary"}
             >
-              Enterprise integration
+              Integration
             </Button>
           </div>
 
           <div className={meCss.menu__content}>
             <div
               className={clsx(meCss.menu__panel, {
-                [meCss["menu__panel--active"]]: opened === "digital",
+                [meCss["menu__panel--active"]]: opened === "optimised",
               })}
             >
-              <p className={prCss.property}>Reduce hardware costs</p>
-              <p className={prCss.property}>Contain operational complexity</p>
-              <p className={prCss.property}>Decrease development costs</p>
-              <p className={prCss.property}>Cloud native (AWS, Azure, GCP)</p>
-              <p className={prCss.property}>On-premises or embedded</p>
+              <p className={prCss.property}>0.00ms base</p>
+              <p className={prCss.property}>Oxmysql</p>
+              <p className={prCss.property}>Statebags</p>
+              <p className={prCss.property}>Optimised Functions</p>
             </div>
 
             <div
               className={clsx(meCss.menu__panel, {
-                [meCss["menu__panel--active"]]: opened === "realtime",
+                [meCss["menu__panel--active"]]: opened === "features",
               })}
             >
-              <p className={prCss.property}>Streaming</p>
-              <p className={prCss.property}>Operational analytics / OLAP</p>
-              <p className={prCss.property}>Monitoring and observability</p>
-              <p className={prCss.property}>Predictive analytics</p>
+              <p className={prCss.property}>Gamemode Support</p>
+              <p className={prCss.property}>Easy To Use functions</p>
+              <p className={prCss.property}>Dynamic PlayerData</p>
+              <p className={prCss.property}>Wide Compatibilty</p>
             </div>
 
             <div
@@ -127,78 +117,18 @@ const FeatureTabs = () => {
                 [meCss["menu__panel--active"]]: opened === "integration",
               })}
             >
-              <p className={prCss.property}>Active directory</p>
-              <p className={prCss.property}>High-performance replication</p>
-              <p className={prCss.property}>High-availability</p>
-              <p className={prCss.property}>Clustering</p>
-              <p className={prCss.property}>Enterprise security</p>
-              <p className={prCss.property}>Postgres compatible</p>
+              <p className={prCss.property}>New Releases daily</p>
+              <p className={prCss.property}>Widely Used</p>
+              <p className={prCss.property}>Add Addons with ease</p>
+              <p className={prCss.property}>Easy to install</p>
+              <p className={prCss.property}>Txadmin Intergration</p>
             </div>
-
-            <Button className={meCss.menu__cta} to="/enterprise">
-              Enterprise &gt;
-            </Button>
           </div>
         </div>
       </div>
     </section>
   )
 }
-
-const Integration = () => (
-  <section
-    className={clsx(
-      seCss.section,
-      seCss["section--inner"],
-      seCss["section--center"],
-    )}
-  >
-    <h2
-      className={clsx(
-        seCss.section__title,
-        seCss["section__title--wide"],
-        "text--center",
-      )}
-    >
-      Integration with the tools you love
-    </h2>
-
-    <div className={inCss.integration}>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<PgLogo />} title="Postgres logo" />
-        Postgres
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<GrafanaLogo />} title="Grafana logo" />
-        Grafana
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<KafkaLogo />} title="Kafka logo" />
-        Kafka
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<PythonLogo />} title="Python logo" />
-        Python
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<PandasLogo />} title="Pandas logo" />
-        Pandas
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<InfluxdataLogo />} title="Telegraf logo" />
-        Telegraf
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<TableauLogo />} title="Tableau logo" />
-        Tableau
-      </p>
-      <p className={inCss.integration__item}>
-        <SvgImage image={<MetabaseLogo />} title="Metabase logo" />
-        Metabase
-      </p>
-    </div>
-  </section>
-)
 
 const Top = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -267,80 +197,6 @@ git clone https://github.com/esx-framework/esx-legacy`}
     </section>
   )
 }
-
-const Usp = () => (
-  <section className={clsx(seCss.section, seCss["section--odd"])}>
-    <div className={seCss["section--inner"]}>
-      <div className={usCss.usp}>
-        <div className={usCss.usp__inner}>
-          <img
-            alt="Speedometer"
-            className={usCss.usp__illustration}
-            height={113}
-            src="/img/pages/index/rawPower.svg"
-            width={176}
-          />
-
-          <h2 className={usCss.usp__title}>Built for performance</h2>
-
-          <p className={usCss.usp__description}>SIMD-optimized analytics</p>
-          <p className={usCss.usp__description}>Row- and column-based access</p>
-          <p className={usCss.usp__description}>Vectorized query execution</p>
-          <p className={usCss.usp__description}>Tiny memory footprint</p>
-          <p className={usCss.usp__description}>C++ and zero-GC Java</p>
-        </div>
-      </div>
-
-      <div className={clsx(usCss.usp, usCss["usp--wide"])}>
-        <div className={usCss.usp__inner}>
-          <img
-            alt="A code editor with a chart that shows the result of the query"
-            className={usCss.usp__illustration}
-            height={113}
-            src="/img/pages/index/easyToUse.svg"
-            width={205}
-          />
-
-          <h2 className={usCss.usp__title}>Optimized for time series</h2>
-
-          <p className={usCss.usp__description}>
-            Relational model for time series
-          </p>
-          <p className={usCss.usp__description}>
-            Data stored in chronological order
-          </p>
-          <p className={usCss.usp__description}>Time partitioned</p>
-          <p className={usCss.usp__description}>Immediate consistency</p>
-          <p className={usCss.usp__description}>Fast InfluxDB line protocol</p>
-        </div>
-      </div>
-
-      <div className={usCss.usp}>
-        <div className={usCss.usp__inner}>
-          <img
-            alt="A code editor containing a SQL statement"
-            className={usCss.usp__illustration}
-            height={113}
-            src="/img/pages/index/featureRich.svg"
-            width={176}
-          />
-
-          <h2 className={usCss.usp__title}>Implemented with SQL</h2>
-
-          <p className={usCss.usp__description}>
-            Time series and relational joins
-          </p>
-          <p className={usCss.usp__description}>Postgres compatibility</p>
-          <p className={usCss.usp__description}>
-            Aggregations and downsampling
-          </p>
-          <p className={usCss.usp__description}>Unlimited sub-queries</p>
-          <p className={usCss.usp__description}>Built-in SQL optimizer</p>
-        </div>
-      </div>
-    </div>
-  </section>
-)
 
 const Cards = () => (
   <section className={clsx(seCss.section, seCss["section--odd"])}>
@@ -726,8 +582,6 @@ const Home = () => {
       replaceTitle
     >
       <Top />
-      <Usp />
-      <Integration />
       <FeatureTabs />
       <QueryScroller />
       <Cards />

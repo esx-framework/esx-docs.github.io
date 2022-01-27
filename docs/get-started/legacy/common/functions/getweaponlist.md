@@ -1,4 +1,4 @@
-# ESX.GetWeaponList
+# GetWeaponList
 
 ```lua
 ESX.GetWeaponList()
@@ -6,7 +6,7 @@ ESX.GetWeaponList()
 
 This function gets the complete weapon list and label.
 
-#### ESX.GetWeaponList Example
+#### GetWeaponList Example
 
 ```lua
 local list = ESX.GetWeaponList()

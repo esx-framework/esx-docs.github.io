@@ -1,4 +1,4 @@
-# ESX.Scaleform.ShowBreakingNews
+# Scaleform.ShowBreakingNews
 
 ```lua
 ESX.Scaleform.ShowBreakingNews(title, msg, bottom, sec)

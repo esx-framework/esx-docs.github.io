@@ -1,4 +1,4 @@
-# ESX.GetPlayerFromId
+# GetPlayerFromId
 
 ```lua
 ESX.GetPlayerFromId(playerId)
@@ -12,7 +12,7 @@ This function gets a ESX player object from a server id. Returns `nil` for inval
 |----------|-----------|----------|---------------|----------------------|
 | playerId | number    | No       | -             | The player server id |
 
-## ESX.GetPlayerFromId Example
+## GetPlayerFromId Example
 
 ```lua
 RegisterNetEvent('esx_ambulancejob:healMe')

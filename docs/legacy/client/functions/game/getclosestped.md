@@ -1,4 +1,4 @@
-# ESX.Game.GetClosestPed
+# GetClosestPed
 
 ```lua
 ESX.Game.GetClosestPed(coords, modelFilter)

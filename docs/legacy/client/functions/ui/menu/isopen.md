@@ -1,4 +1,4 @@
-# ESX.UI.Menu.IsOpen
+# UI.Menu.IsOpen
 
 ```lua
 ESX.UI.Menu.IsOpen(type, namespace, name)

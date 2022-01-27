@@ -1,4 +1,4 @@
-# ESX.Scaleform.ShowTrafficMovie
+# Scaleform.ShowTrafficMovie
 
 ```lua
 ESX.Scaleform.ShowTrafficMovie(sec)

@@ -1,4 +1,4 @@
-# esx:showNotification
+# showNotification
 
 ```lua
 TriggerClientEvent('esx:showNotification', source, '~y~Hello ~b~world~s~!')

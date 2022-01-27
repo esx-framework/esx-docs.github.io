@@ -9,7 +9,6 @@ import inCss from "../css/about-us/investors.module.css"
 import prCss from "../css/about-us/press.module.css"
 
 import Layout from "../theme/Layout"
-import Button from "@theme/Button"
 
 import SvgImage from "../components/SvgImage"
 
@@ -231,11 +230,6 @@ const Team = () => {
           <div className={teCss.team__work__text}>
             We&apos;re hiring passionate talents to join us in building the
             fastest open source time series database!
-          </div>
-          <div className={teCss.team__work__cta}>
-            <Button variant="primary" to="/careers">
-              See openings
-            </Button>
           </div>
         </div>
       </section>

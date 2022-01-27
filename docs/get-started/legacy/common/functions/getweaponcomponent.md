@@ -1,4 +1,4 @@
-# ESX.GetWeaponComponent
+# GetWeaponComponent
 
 ```lua
 ESX.GetWeaponComponent(weaponName, weaponComponent)

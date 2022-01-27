@@ -1,4 +1,4 @@
-# ESX.Streaming.RequestAnimSet
+# Streaming.RequestAnimSet
 
 ```lua
 ESX.Streaming.RequestAnimSet(animSet, cb)

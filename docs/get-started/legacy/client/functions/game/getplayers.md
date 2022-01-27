@@ -1,4 +1,4 @@
-# ESX.Game.GetPlayers
+# GetPlayers
 
 ```lua
 ESX.Game.GetPlayers(onlyOtherPlayers, returnKeyValue, returnPeds)
@@ -14,7 +14,7 @@ This function is used to get all the active players.
 | returnKeyValue   | boolean   | Yes      | nil (false)   | If set to true it will return in a key-value table where key is player client id and key being the ped handle. Otherwise it create a index-value table, with value being either the ped handle or client id depending on `returnPeds` |
 | returnPeds       | boolean   | Yes      | nil (false)   | If set to true it will return the ped handle for that player, otherwise it will return the player client id                                                                                                                           |
 
-## ESX.Game.GetPlayers Example
+## GetPlayers Example
 
 ```lua
 local players = ESX.Game.GetPlayers()

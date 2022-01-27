@@ -1,4 +1,4 @@
-# ESX.CreatePickup
+# CreatePickup
 
 ```lua
 ESX.CreatePickup(type, name, count, label, playerId, components, tintIndex)

@@ -1,4 +1,4 @@
-# ESX.GetPlayerData
+# GetPlayerData
 
 ```lua
 ESX.GetPlayerData()

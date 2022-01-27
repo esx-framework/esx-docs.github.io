@@ -1,4 +1,4 @@
-# ESX.Math.GroupDigits
+# Math.GroupDigits
 
 ```lua
 ESX.Math.GroupDigits(value)
@@ -6,7 +6,7 @@ ESX.Math.GroupDigits(value)
 
 This function groups numbers, making them easier to understand by humans. Used in most nofications when money is showed, for example when buying a new car at the vehicle shop.
 
-#### ESX.Math.Round Example
+#### Math.Round Example
 
 ```lua
 local value = 5555

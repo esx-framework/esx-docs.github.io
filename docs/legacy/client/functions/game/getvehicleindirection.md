@@ -1,4 +1,4 @@
-# ESX.Game.GetVehicleInDirection.md
+# GetVehicleInDirection.md
 
 ```lua
 ESX.Game.GetVehicleInDirection()
@@ -6,7 +6,7 @@ ESX.Game.GetVehicleInDirection()
 
 This function gets the closest vehicle in the player's direction within 5 units, utilizes ray-casts.
 
-## ESX.Game.GetVehicleInDirection Example
+## GetVehicleInDirection Example
 
 ```lua
 local vehicle = ESX.Game.GetVehicleInDirection()

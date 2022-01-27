@@ -1,4 +1,4 @@
-# ESX.IsPlayerLoaded
+# IsPlayerLoaded
 
 ```lua
 ESX.IsPlayerLoaded()

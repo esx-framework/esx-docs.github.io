@@ -1,4 +1,4 @@
-# ESX.UI.HUD.RegisterElement
+# UI.HUD.RegisterElement
 
 ```lua
 ESX.UI.HUD.RegisterElement(name, index, priority, html, data)

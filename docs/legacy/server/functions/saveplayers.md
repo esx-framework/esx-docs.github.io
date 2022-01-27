@@ -1,4 +1,4 @@
-# ESX.SavePlayers
+# SavePlayers
 
 ```lua
 ESX.SavePlayers(cb)

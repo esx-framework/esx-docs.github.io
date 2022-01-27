@@ -1,4 +1,4 @@
-# ESX.Game.GetClosestPlayer
+# GetClosestPlayer
 
 ```lua
 ESX.Game.GetClosestPlayer(coords)
@@ -12,7 +12,7 @@ This function gets the closest player client id, and distance to the player.
 |----------|---------------|----------|--------------------------|---------------------|
 | coords   | table&vector3 | Yes      | (your player ped coords) | Coords to search at |
 
-## ESX.Game.GetClosestPlayer Example
+## GetClosestPlayer Example
 
 ```lua
 local closestPlayer, closestPlayerDistance = ESX.Game.GetClosestPlayer()

@@ -1,4 +1,4 @@
-# ESX.Game.DeleteVehicle
+# DeleteVehicle
 
 ```lua
 ESX.Game.DeleteVehicle(vehicle)

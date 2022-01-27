@@ -1,4 +1,4 @@
-# ESX.Game.Utils.DrawText3D
+# Utils.DrawText3D
 
 ```lua
 ESX.Game.Utils.DrawText3D(coords, text, size, font)

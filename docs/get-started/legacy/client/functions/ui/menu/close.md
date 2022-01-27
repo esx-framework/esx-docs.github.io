@@ -1,4 +1,4 @@
-# ESX.UI.Menu.Close
+# UI.Menu.Close
 
 ```lua
 ESX.UI.Menu.Close(type, namespace, name)

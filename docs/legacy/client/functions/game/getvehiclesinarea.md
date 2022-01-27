@@ -1,4 +1,4 @@
-# ESX.Game.GetVehiclesInArea
+# GetVehiclesInArea
 
 ```lua
 ESX.Game.GetVehiclesInArea(coords, maxDistance)

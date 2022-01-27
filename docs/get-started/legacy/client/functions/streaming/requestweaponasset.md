@@ -1,4 +1,4 @@
-# ESX.Streaming.RequestWeaponAsset
+# Streaming.RequestWeaponAsset
 
 ```lua
 ESX.Streaming.RequestWeaponAsset(weaponHash, cb)

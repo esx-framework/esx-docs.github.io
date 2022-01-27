@@ -1,4 +1,4 @@
-# ESX.GetConfig
+# GetConfig
 
 ```lua
 ESX.GetConfig()

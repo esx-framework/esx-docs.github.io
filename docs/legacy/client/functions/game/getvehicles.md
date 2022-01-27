@@ -1,4 +1,4 @@
-# ESX.Game.GetVehicles
+# GetVehicles
 
 ```lua
 ESX.Game.GetVehicles()

@@ -1,4 +1,4 @@
-# ESX.ShowFloatingHelpNotification
+# ShowFloatingHelpNotification
 
 ```lua
 ESX.ShowFloatingHelpNotification(msg, coords)
@@ -13,7 +13,7 @@ This function shows a help notification with a message. These help notification 
 | msg       | string    | No       | -             | The message to display                                                              |
 | coords    | Vector3   | No       | -             | The coordinates to show to notifcation at                                           |
 
-## ESX.ShowFloatingHelpNotification Example
+## ShowFloatingHelpNotification Example
 
 ```lua
 local coords = GetEntityCoords(PlayerPedId())

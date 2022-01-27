@@ -1,4 +1,4 @@
-# ESX.ShowNotification
+# ShowNotification
 
 ```lua
 ESX.ShowNotification(msg, flash, saveToBrief, hudColorIndex)

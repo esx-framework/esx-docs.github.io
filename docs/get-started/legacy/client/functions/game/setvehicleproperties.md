@@ -1,4 +1,4 @@
-# ESX.Game.SetVehicleProperties
+# SetVehicleProperties
 
 ```lua
 ESX.Game.SetVehicleProperties(vehicle, props)
@@ -6,7 +6,7 @@ ESX.Game.SetVehicleProperties(vehicle, props)
 
 This function sets various properties for an vehicle object.
 
-## ESX.Game.SetVehicleProperties Example
+## SetVehicleProperties Example
 
 ```lua
 local playerPed = PlayerPedId()

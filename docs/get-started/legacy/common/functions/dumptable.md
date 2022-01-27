@@ -1,4 +1,4 @@
-# ESX.DumpTable
+# DumpTable
 
 ```lua
 ESX.DumpTable(table)
@@ -6,7 +6,7 @@ ESX.DumpTable(table)
 
 This function dumps the given table to a readable string with a tree structure.
 
-## ESX.DumpTable Example
+## DumpTable Example
 
 ```lua
 local myTable = { {esx = 'awesome'} }

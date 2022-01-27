@@ -1,4 +1,4 @@
-# ESX.Game.GetVehicleProperties
+# GetVehicleProperties
 
 ```lua
 ESX.Game.GetVehicleProperties(vehicle)

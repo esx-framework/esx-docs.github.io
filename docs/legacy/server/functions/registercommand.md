@@ -1,4 +1,4 @@
-# ESX.RegisterCommand
+# RegisterCommand
 
 ```lua
 ESX.RegisterCommand(name, Permissions, cb, allowConsole,suggestion)

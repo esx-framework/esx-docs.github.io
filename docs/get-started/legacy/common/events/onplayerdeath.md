@@ -1,4 +1,4 @@
-# esx:onPlayerDeath
+# onPlayerDeath
 
 ```lua
 AddEventHandler('esx:onPlayerDeath', function(data)

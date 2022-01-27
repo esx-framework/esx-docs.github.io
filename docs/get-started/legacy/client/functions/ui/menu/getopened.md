@@ -1,4 +1,4 @@
-# ESX.UI.Menu.GetOpened
+# UI.Menu.GetOpened
 
 ```lua
 ESX.UI.Menu.GetOpened(type, namespace, name)

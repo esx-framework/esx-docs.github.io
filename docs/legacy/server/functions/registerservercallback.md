@@ -1,4 +1,4 @@
-# ESX.RegisterServerCallback
+# RegisterServerCallback
 
 ```lua
 ESX.RegisterServerCallback(name, handler)
@@ -14,7 +14,7 @@ This function registers a server callback.
 | cb       | function  | No       | -             | Callback function, which contains an varied size of arguments depending on how many arguments parsed from client |
 | ...args  | any       | No       | -             | The args provided after the handler on the client TriggerServerCallback                                          |
 
-## ESX.RegisterServerCallback Example
+## RegisterServerCallback Example
 
 ```lua
 local myMemeServer = 'Meme data string'

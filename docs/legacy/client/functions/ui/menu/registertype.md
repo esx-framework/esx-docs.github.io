@@ -1,4 +1,4 @@
-# ESX.UI.Menu.RegisterType
+# UI.Menu.RegisterType
 
 ```lua
 ESX.UI.Menu.RegisterType(type, open, close)

@@ -1,4 +1,4 @@
-# ESX.Game.GetClosestEntity
+# GetClosestEntity
 
 ```lua
 ESX.Game.GetClosestEntity(coords, modelFilter)

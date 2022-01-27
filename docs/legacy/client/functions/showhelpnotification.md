@@ -1,4 +1,4 @@
-# ESX.ShowHelpNotification
+# ShowHelpNotification
 
 ```lua
 ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
@@ -15,7 +15,7 @@ This function shows a help notification with a message. These help notification 
 | beep      | boolean   | Yes      | true          | Play the beep sound?                                                                |
 | duration  | number    | Yes      | -1 (5000 ms)  | Duration to show the help notification in milliseconds                              |
 
-## ESX.ShowHelpNotification Example
+## ShowHelpNotification Example
 
 ```lua
 ESX.ShowHelpNotification('Hit ~INPUT_CONTEXT~ to do shit!')

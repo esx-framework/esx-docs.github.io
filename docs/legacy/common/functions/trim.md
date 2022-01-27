@@ -1,4 +1,4 @@
-# ESX.Math.Trim
+# Math.Trim
 
 ```lua
 ESX.Math.Trim(value)

@@ -1,4 +1,4 @@
-# ESX.DoesJobExist
+# DoesJobExist
 
 ```lua
 ESX.DoesJobExist(job, grade)

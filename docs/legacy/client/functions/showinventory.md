@@ -1,4 +1,4 @@
-# ESX.ShowInventory
+# ShowInventory
 
 ```lua
 ESX.ShowInventory()

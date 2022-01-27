@@ -1,4 +1,4 @@
-# ESX.Game.GetPeds
+# GetPeds
 
 ```lua
 ESX.Game.GetPeds(onlyOtherPeds)

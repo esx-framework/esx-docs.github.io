@@ -1,4 +1,4 @@
-# ESX.Game.Teleport
+# Teleport
 
 ```lua
 ESX.Game.Teleport(entity, coords, cb)
@@ -17,7 +17,7 @@ This function teleports an entity.
 | coords   | table&vector3 | No       | -             | The coords to be teleported to. Supports both vector3 and table types. If using a table type you can also specify `heading` to set the entity heading upon teleportation |
 | cb       | function      | Yes      | -             | The returned function when the entity has been teleported                                                                                                                |
 
-## ESX.Game.Teleport Example
+## Teleport Example
 
 ```lua
 local playerPed = PlayerPedId()

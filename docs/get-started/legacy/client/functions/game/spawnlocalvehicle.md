@@ -1,4 +1,4 @@
-# ESX.Game.SpawnLocalVehicle
+# SpawnLocalVehicle
 
 ```lua
 ESX.Game.SpawnLocalVehicle(modelOrHash, coords, heading, cb)
@@ -18,7 +18,7 @@ This function spawns a local vehicle, which is only visible to the local player 
 | heading     | number        | No       | -             | The heading of the spawned vehicle, must contain a decimal                                                                  |
 | cb          | function      | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has one argument, which is the vehicle handle |
 
-## ESX.Game.SpawnLocalVehicle Example
+## SpawnLocalVehicle Example
 
 ```lua
 ESX.Game.SpawnLocalVehicle('blista', vector3(120.0, -200.0, 30.0), 100.0, function(vehicle)

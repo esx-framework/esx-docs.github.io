@@ -1,4 +1,4 @@
-# ESX.Game.DeleteObject
+# DeleteObject
 
 ```lua
 ESX.Game.DeleteObject(object)

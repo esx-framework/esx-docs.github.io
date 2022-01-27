@@ -1,4 +1,4 @@
-# ESX.UseItem
+# UseItem
 
 ```lua
 ESX.UseItem(playerId, itemName)

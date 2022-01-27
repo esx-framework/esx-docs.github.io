@@ -1,4 +1,4 @@
-# ESX.Scaleform.ShowPopupWarning
+# Scaleform.ShowPopupWarning
 
 ```lua
 ESX.Scaleform.ShowPopupWarning(title, msg, bottom, sec)

@@ -1,4 +1,4 @@
-# esx:showHelpNotification
+# showHelpNotification
 
 ```lua
 TriggerClientEvent('esx:showHelpNotification', source, msg)
@@ -6,7 +6,7 @@ TriggerClientEvent('esx:showHelpNotification', source, msg)
 
 This event shows a help notification with the parsed message. These help notification support displaying button inputs, see [this list](https://pastebin.com/HPg8pYwi)
 
-## esx:showHelpNotification Example
+## showHelpNotification Example
 
 ```lua
 TriggerClientEvent('esx:showHelpNotification', source, 'Hit ~INPUT_CONTEXT~ to do shit!')

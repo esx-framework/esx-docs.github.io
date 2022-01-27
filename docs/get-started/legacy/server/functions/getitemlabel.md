@@ -1,4 +1,4 @@
-# ESX.GetItemLabel
+# GetItemLabel
 
 ```lua
 ESX.GetItemLabel(item)

@@ -1,4 +1,4 @@
-# ESX.Streaming.RequestStreamedTextureDict
+# Streaming.RequestStreamedTextureDict
 
 ```lua
 ESX.Streaming.RequestStreamedTextureDict(textureDict, cb)

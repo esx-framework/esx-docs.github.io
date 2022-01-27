@@ -1,4 +1,4 @@
-# ESX.Trace
+# Trace
 
 ```lua
 ESX.Trace(msg)

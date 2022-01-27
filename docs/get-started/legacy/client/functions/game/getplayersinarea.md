@@ -1,4 +1,4 @@
-# ESX.Game.GetPlayersInArea
+# GetPlayersInArea
 
 ```lua
 ESX.Game.GetPlayersInArea(coords, maxDistance)

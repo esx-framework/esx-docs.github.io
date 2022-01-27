@@ -1,4 +1,4 @@
-# ESX.Game.IsSpawnPointClear
+# IsSpawnPointClear
 
 ```lua
 ESX.Game.IsSpawnPointClear(coords, maxDistance)

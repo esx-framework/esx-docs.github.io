@@ -1,4 +1,4 @@
-# ESX.SavePlayer
+# SavePlayer
 
 ```lua
 ESX.SavePlayer(xPlayer, cb)

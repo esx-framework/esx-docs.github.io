@@ -1,4 +1,4 @@
-# ESX.GetWeaponLabel
+# GetWeaponLabel
 
 ```lua
 ESX.GetWeaponLabel(weaponName)
@@ -6,7 +6,7 @@ ESX.GetWeaponLabel(weaponName)
 
 This function gets the weapon label for a given weapon.
 
-#### ESX.GetWeaponLabel Example
+#### GetWeaponLabel Example
 
 ```lua
 local label = ESX.GetWeaponLabel('WEAPON_ASSAULTRIFLE')

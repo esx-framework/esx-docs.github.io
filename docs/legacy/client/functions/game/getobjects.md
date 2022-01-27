@@ -1,4 +1,4 @@
-# ESX.Game.GetObjects
+# GetObjects
 
 ```lua
 ESX.Game.GetObjects()

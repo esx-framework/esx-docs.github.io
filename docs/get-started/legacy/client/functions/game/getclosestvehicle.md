@@ -1,4 +1,4 @@
-# ESX.Game.GetClosestVehicle
+# GetClosestVehicle
 
 ```lua
 ESX.Game.GetClosestVehicle(coords, modelFilter)

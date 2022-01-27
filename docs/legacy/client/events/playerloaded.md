@@ -1,4 +1,4 @@
-# esx:playerLoaded
+# playerLoaded
 
 ```lua
 RegisterNetEvent('esx:playerLoaded')

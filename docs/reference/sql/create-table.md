@@ -222,7 +222,6 @@ parameters may be applied:
   | d    | days         |
 
 For more information on commit lag and the maximum uncommitted rows, see the
-guide for [out-of-order commits](/docs/guides/out-of-order-commit-lag/).
 
 ## Create table syntax diagram
 

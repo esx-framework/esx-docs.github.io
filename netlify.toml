@@ -63,10 +63,6 @@
   to = "/docs/reference/web-console"
 
 [[redirects]]
-  from = "/docs/guides/hysteresis"
-  to = "/docs/guides/out-of-order-commit-lag"
-
-[[redirects]]
   from = "/tutorial/2021/09/05/telegraf-and-questdb-for-storing-metrics-in-a-timeseries-database"
   to = "/tutorial/2021/07/09/telegraf-and-questdb-for-storing-metrics-in-a-timeseries-database"
 

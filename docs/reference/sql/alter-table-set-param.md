@@ -8,7 +8,6 @@ The following keywords allow for setting table parameters via SQL. This is
 useful for applying configuration for how the system handles out-of-order data
 ingestion on a per-table basis. For more information on these values including
 details on why these settings should be applied, see the documentation for
-[out-of-order data commits](/docs/guides/out-of-order-commit-lag/).
 
 :::info
 

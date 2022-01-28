@@ -11,8 +11,6 @@ import useWindowWidth from "@theme/useWindowWidth"
 import SvgImage from "../components/SvgImage"
 
 import doCss from "../css/index/docker.module.css"
-import feCss from "../css/index/feature.module.css"
-import flCss from "../css/index/flashy.module.css"
 
 import juCss from "../css/index/jumbotron.module.css"
 import meCss from "../css/index/menu.module.css"
@@ -22,8 +20,6 @@ import seCss from "../css/section.module.css"
 
 import GithubLogo from "../assets/img/github.svg"
 import DockerLogo from "../assets/img/pages/index/docker.svg"
-import PgwireLogo from "../assets/img/pages/index/pgwire.svg"
-import FossIcon from "../assets/img/pages/index/foss.svg"
 import SearchTimeIcon from "../assets/img/pages/index/searchTime.svg"
 import SliceTimeIcon from "../assets/img/pages/index/sliceTime.svg"
 import NavigateTimeIcon from "../assets/img/pages/index/navigateTime.svg"
@@ -193,159 +189,6 @@ git clone https://github.com/esx-framework/esx-legacy`}
             />
           </a>
         </pre>
-      </div>
-    </section>
-  )
-}
-
-const Cards = () => (
-  <section className={clsx(seCss.section, seCss["section--odd"])}>
-    <div className={clsx(seCss["section--inner"], seCss["section--center"])}>
-      <h3
-        className={clsx(
-          seCss.section__title,
-          feCss["section__title--wide"],
-          "text--center",
-        )}
-      >
-        Why time series?
-      </h3>
-
-      <div
-        className={clsx(
-          seCss.section__footer,
-          seCss["section__footer--feature-cards"],
-        )}
-      >
-        <div className={feCss.feature}>
-          <h3 className={feCss.feature__header}>DevOps monitoring</h3>
-          <p className={feCss.feature__content}>
-            Collect metrics and events from your infrastructure (CPU, memory,
-            networks, etc.) and get real-time visibility into your entire stack.
-          </p>
-        </div>
-
-        <div className={feCss.feature}>
-          <h3 className={feCss.feature__header}>Financial market data</h3>
-          <p className={feCss.feature__content}>
-            Store market data to identify historical trends and correlations
-            using statistical methods and generate trading signals.
-          </p>
-        </div>
-
-        <div className={feCss.feature}>
-          <h3 className={feCss.feature__header}>Connected devices</h3>
-          <p className={feCss.feature__content}>
-            Capture, store and respond to data from sensors at any resolution in
-            industrial applications.
-          </p>
-        </div>
-
-        <div className={feCss.feature}>
-          <h3 className={feCss.feature__header}>Application metrics</h3>
-          <p className={feCss.feature__content}>
-            Empower your application users to track and visualize logs, API
-            calls, and any application activity in real-time.
-          </p>
-        </div>
-
-        <div className={feCss.feature}>
-          <h3 className={feCss.feature__header}>
-            Machine learning with time-series data
-          </h3>
-          <p className={feCss.feature__content}>
-            Use QuestDB with popular Python frameworks and tools for leveraging
-            anomaly detection algorithms, machine learning libraries,
-            statistical analysis with Pandas, or Jupyter notebooks.
-          </p>
-        </div>
-
-        <div className={feCss.feature}>
-          <h3 className={feCss.feature__header}>Integrated data</h3>
-          <p className={feCss.feature__content}>
-            Pull together all your application, device, and infrastructure data
-            for a complete, 360º view of all aspects of your business.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-)
-
-const Console = () => {
-  return (
-    <section
-      className={clsx(
-        seCss.section,
-        seCss["section--inner"],
-        seCss["section--center"],
-      )}
-    >
-      <h2
-        className={clsx(
-          seCss.section__title,
-          seCss["section__title--wide"],
-          "text--center",
-        )}
-      >
-        Interactive Console
-      </h2>
-      <p
-        className={clsx(
-          seCss.section__subtitle,
-          seCss["section__subtitle--narrow"],
-          "text--center",
-        )}
-      >
-        Interactive console to import data (drag and drop) and start querying
-        right away. Check our Web Console documentation
-        to get started.
-      </p>
-
-      <img
-        alt="Artistic view of QuestDB's Web Console split in 3 components: the navigation tree, the SQL code editor and data displayed as a chart"
-        className={seCss.section__illustration}
-        height={467}
-        src="/img/pages/index/console.svg"
-        width={600}
-      />
-
-      <div
-        className={clsx(
-          seCss.section__footer,
-          seCss["section__footer--console"],
-        )}
-      >
-        <div className={clsx(flCss.flashy, flCss["flashy--primary"])}>
-          <SvgImage image={<PgwireLogo />} title="Postgres logo" />
-          <h3 className={flCss.flashy__title}>Postgres compatibility</h3>
-          <p className={flCss.flashy__content}>
-            Interact with QuestDB using the Postgres layer and any tool that
-            connects to it.
-          </p>
-        </div>
-
-        <div className={flCss.flashy}>
-          <SvgImage image={<FossIcon />} title="Antenna" />
-          <h3 className={flCss.flashy__title}>Open source</h3>
-          <p className={flCss.flashy__content}>
-            The leading Open source FiveM Framework
-          </p>
-
-          <div className={flCss.flashy__links}>
-            <a
-              className={flCss.flashy__link}
-              href={customFields.githubUrl}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Go to GitHub&nbsp;&nbsp;&gt;
-            </a>
-            <a className={flCss.flashy__link} href={customFields.slackUrl}>
-              Join Slack&nbsp;&nbsp;&gt;
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   )

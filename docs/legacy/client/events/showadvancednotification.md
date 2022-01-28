@@ -6,7 +6,7 @@ TriggerClientEvent('esx:showAdvancedNotification', source, title, subject, msg, 
 
 This event shows a notification for the specified source. This is what you'll want to use server side when you want to send a notification.
 
-## showAdvancedNotification Example
+## Example
 
 ```lua
 TriggerClientEvent('esx:showAdvancedNotification', source, 'title', 'subject', 'msg', 'CHAR_AMMUNATION', 3)

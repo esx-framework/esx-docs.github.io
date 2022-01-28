@@ -26,7 +26,7 @@ jobs:
 
       - name: Install all dependencies
         run: npm install --force
-        run: rpm audit fix
+        run: npm audit fix
 
       - name: Build
         run: npm run build # The build command of your project

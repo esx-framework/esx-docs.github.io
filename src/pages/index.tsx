@@ -15,7 +15,6 @@ import prCss from "../css/property.module.css"
 import seCss from "../css/section.module.css"
 
 import GithubLogo from "../assets/img/github.svg"
-import DockerLogo from "../assets/img/pages/index/docker.svg"
 
 const FeatureTabs = () => {
   const [opened, setOpened] = useState<"optimised" | "features" | "integration">(

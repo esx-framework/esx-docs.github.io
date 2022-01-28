@@ -7,6 +7,7 @@ import SvgImage from "../SvgImage"
 import GithubLogo from "../../assets/img/github.svg"
 import SlackLogo from "../../assets/img/slack.svg"
 import DatabaseLogo from "../../assets/img/database.svg"
+import QuestDBLogo from "../../assets/img/questdb.svg"
 
 type Repository = {
   repo: {
@@ -61,6 +62,10 @@ const ProductMetrics = () => {
       </div>
       <div className={pmCss["product-metric"]}>
         <div className={pmCss["product-metric__content"]}>
+          <SvgImage
+            image={<QuestDBLogo width="60" height="60" />}
+            title="QuestDB logo"
+          />
           <div className={pmCss["product-metric__content__text"]}>
             <h3 className={pmCss["product-metric__content__text__header"]}>
               {contributorsCount}

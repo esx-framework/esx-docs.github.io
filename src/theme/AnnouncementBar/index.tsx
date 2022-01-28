@@ -19,7 +19,7 @@ const AnnouncementBar = () => {
   return (
     <div className={styles.announcement} role="banner">
       <p className={styles.announcement__content}>
-        If you like ESX,&nbsp;
+        If you like QuestDB,&nbsp;
         <a
           className={styles.announcement__link}
           href={customFields.githubUrl}

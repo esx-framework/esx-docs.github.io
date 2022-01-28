@@ -581,6 +581,8 @@ const Home = () => {
       <Top />
       <FeatureTabs />
       <QueryScroller />
+      <Cards />
+      <Console />
     </Layout>
   )
 }

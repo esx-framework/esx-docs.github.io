@@ -1,7 +1,7 @@
 {
-  "name": "ESX Framework",
-  "short_name": "ESX",
-  "description": "ESX - The Leading FiveM framework",
+  "name": "QuestDB | Time series data, faster",
+  "short_name": "QuestDB",
+  "description": "QuestDB website and documentation",
   "start_url": "/",
   "background_color": "#21222c",
   "display": "minimal-ui",

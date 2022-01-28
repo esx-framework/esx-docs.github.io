@@ -152,7 +152,7 @@ function Navbar(): JSX.Element {
             to="/time-series-benchmark-suite/"
             variant="secondary"
           >
-            Benchmark
+            GITHUB
           </Button>
         </div>
       </div>

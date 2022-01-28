@@ -105,6 +105,34 @@ module.exports = {
                     "legacy/client/functions/streaming/requestweaponasset",
                   ],
                 },
+                  {
+                    type: "category",
+                    label: "UI",
+                    items: [
+                      "legacy/client/functions/ui/showinventoryitemnotification",
+                      {
+                        type: "category",
+                        label: "HUD",
+                        items: [
+                          "legacy/client/functions/ui/hud/registerelement",
+                          "legacy/client/functions/ui/hud/removeelment",
+                          "legacy/client/functions/ui/hud/setdisplay",
+                          "legacy/client/functions/ui/hud/updateelement",
+                        ],
+                      },
+                      {
+                        type: "category",
+                        label: "Menu",
+                        items: [
+                          "legacy/client/functions/ui/menu/open",
+                          "legacy/client/functions/ui/menu/isopen",
+                          "legacy/client/functions/ui/menu/getopened",
+                          "legacy/client/functions/ui/menu/closeall",
+                          "legacy/client/functions/ui/menu/close",
+                        ],
+                      },
+                    ],
+                  },
                 "legacy/client/functions/getplayerdata",
                 "legacy/client/functions/isplayerloaded",
                 "legacy/client/functions/setplayerdata",

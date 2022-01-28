@@ -169,12 +169,6 @@ const Top = () => {
             {`cd resources
 git clone https://github.com/esx-framework/esx-legacy`}
           </code>
-          <a
-            href={customFields.dockerUrl}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-          </a>
         </pre>
       </div>
     </section>

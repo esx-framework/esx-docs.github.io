@@ -1,6 +1,6 @@
 import clsx from "clsx"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
-import React, { useCallback, useEffect, useState } from "react"
+import React, { useCallback, useState } from "react"
 import customFields from "../config/customFields"
 
 import Button from "@theme/Button"

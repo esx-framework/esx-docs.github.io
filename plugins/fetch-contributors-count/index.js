@@ -4,7 +4,7 @@ module.exports = () => ({
   name: "fetch-contributors-count",
   async loadContent() {
     const response = await nodeFetch(
-      `https://raw.githubusercontent.com/esx-framework/esx-legacy/master/.all-contributorsrc`,
+      `https://raw.githubusercontent.com/esx-framework/esx-legacy/main/.all-contributorsrc`,
     )
 
     const data = await response.json()

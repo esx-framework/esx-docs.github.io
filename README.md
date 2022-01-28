@@ -12,7 +12,6 @@ TypeScript, the styles in vanilla CSS with variables using
 <!-- prettier-ignore-start -->
 <div align="center">
   <a href="https://docs.esx-framework.org">
-    <img src=".github/console.png" width="400" />
   </a>
 </div>
 <div align="center">

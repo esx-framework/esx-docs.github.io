@@ -37,3 +37,9 @@ jobs:
           FOLDER: build # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.FTP_SERVER }}
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}

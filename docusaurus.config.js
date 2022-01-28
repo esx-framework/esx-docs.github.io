@@ -101,7 +101,7 @@ const config = {
       anonymizeIP: true,
     },
     prism: {
-      defaultLanguage: "diff",
+      defaultLanguage: "lua",
       additionalLanguages: ["rust", "csharp", "julia", "cpp", "java"],
       theme: require("./src/internals/prism-github"),
       darkTheme: require("./src/internals/prism-dracula"),

@@ -20,7 +20,7 @@ const Highlight = ({
   <div>
     <Prism
       {...defaultProps}
-      language="lua"
+      language="diff"
       code={code}
       theme={themes[theme]}
     >

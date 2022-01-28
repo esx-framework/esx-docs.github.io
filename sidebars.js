@@ -115,7 +115,7 @@ module.exports = {
                         label: "HUD",
                         items: [
                           "legacy/client/functions/ui/hud/registerelement",
-                          "legacy/client/functions/ui/hud/removeelment",
+                          "legacy/client/functions/ui/hud/removeelement",
                           "legacy/client/functions/ui/hud/setdisplay",
                           "legacy/client/functions/ui/hud/updateelement",
                         ],

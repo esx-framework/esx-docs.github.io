@@ -4,7 +4,7 @@ module.exports = () => ({
   name: "fetch-repo",
   async loadContent() {
     const response = await nodeFetch(
-      `https://api.github.com/repos/questdb/questdb`,
+      `https://api.github.com/repos/esx-framework/esx-legacy`,
     )
 
     const data = await response.json()

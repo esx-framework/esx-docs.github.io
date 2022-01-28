@@ -39,7 +39,7 @@ const config = {
   baseUrlIssueBanner: false,
   favicon: "/img/favicon.png",
   organizationName: "ESX-Framework",
-  projectName: "questdb",
+  projectName: "ESX Framework",
   customFields: customFields,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -101,17 +101,17 @@ const config = {
       anonymizeIP: true,
     },
     prism: {
-      defaultLanguage: "questdb-sql",
+      defaultLanguage: "lua",
       additionalLanguages: ["rust", "csharp", "julia", "cpp", "java"],
       theme: require("./src/internals/prism-github"),
       darkTheme: require("./src/internals/prism-dracula"),
     },
     algolia: {
-      apiKey: "b2a69b4869a2a85284a82fb57519dcda",
-      indexName: "questdb",
+      apiKey: "75e3329b163256ab9d0442c18600ec8f",
+      indexName: "ESX",
     },
     navbar: {
-      title: " ",
+      title: "ESX",
       logo: {
         alt: "ESX-Framework",
         src: "/img/favicon.png",

@@ -1,4 +1,4 @@
-# Scaleform.ShowFreemodeMessage
+# ShowFreemodeMessage
 
 ```lua
 ESX.Scaleform.ShowFreemodeMessage(title, msg, sec)
@@ -14,7 +14,7 @@ This function displays a freemode message for the player.
 | msg      | string    | No       | -             | Message text                      |
 | sec      | number    | No       | -             | Time in seconds to show scaleform |
 
-## Scaleform.ShowFreemodeMessage Example
+## Example
 
 ```lua
 ESX.Scaleform.ShowFreemodeMessage('~o~fact of the day', '~y~Hawaii is a king', 5)

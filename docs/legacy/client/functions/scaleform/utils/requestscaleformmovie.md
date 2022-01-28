@@ -1,4 +1,4 @@
-# Scaleform.Utils.RequestScaleformMovie
+# RequestScaleformMovie
 
 ```lua
 ESX.Scaleform.Utils.RequestScaleformMovie(movie)
@@ -12,7 +12,7 @@ This function requests and returns a scaleform handle for the movie parsed.
 |----------|-----------|----------|---------------|-----------------------------------------------------------------------------------|
 | movie    | string    | No       | -             | The movie name, [list of avilable scaleforms](https://scaleform.devtesting.pizza) |
 
-## Scaleform.Utils.RequestScaleformMovie Example
+## Example
 
 ```lua
 local scaleform = ESX.ScaleForm.Utils.RequestScaleformMovie('MP_BIG_MESSAGE_FREEMODE')

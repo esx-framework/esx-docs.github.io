@@ -1,4 +1,4 @@
-# Streaming.RequestAnimDict
+# RequestAnimDict
 
 ```lua
 ESX.Streaming.RequestAnimDict(animDict, cb)

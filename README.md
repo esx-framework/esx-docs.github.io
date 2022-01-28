@@ -2,22 +2,22 @@
 [![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-green.svg)](https://conventionalcommits.org)
 
-# questdb.io
+  # docs.esx-framework.org
 
-[This website](https://questdb.io) is built using
+[This website](https://docs.esx-framework.org) is built using
 [Docusaurus 2](https://v2.docusaurus.io/). Pages & components are written in
 TypeScript, the styles in vanilla CSS with variables using
 [CSS Modules](https://github.com/css-modules/css-modules).
 
 <!-- prettier-ignore-start -->
 <div align="center">
-  <a href="http://questdb.io">
+  <a href="https://docs.esx-framework.org">
     <img src=".github/console.png" width="400" />
   </a>
 </div>
 <div align="center">
-  <a href="http://questdb.io">
-    questdb.io
+  <a href="https://docs.esx-framework.org">
+    docs.esx-framework.org
   </a>
 </div>
 <!-- prettier-ignore-end -->

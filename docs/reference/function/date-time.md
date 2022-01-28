@@ -380,8 +380,6 @@ SELECT to_str(systimestamp(), 'yyyy-MM-dd gooD DAY 123') FROM long_sequence(1);
 
 `to_timezone(timestamp, timezone)` - converts a timestamp value to a specified
 timezone. For more information on the time zone database used for this function,
-see the
-[QuestDB time zone database documentation](/docs/guides/working-with-timestamps-timezones/).
 
 **Arguments:**
 
@@ -426,12 +424,6 @@ SELECT to_timezone('2021-06-08T13:45:45.000000Z', 'PST')
 | 2021-06-08T06:45:45.000000Z |
 
 ## to_utc
-
-`to_utc(timestamp, timezone)` - converts a timestamp by specified timezone to
-UTC. May be provided a timezone in string format or a UTC offset in hours and
-minutes. For more information on the time zone database used for this function,
-see the
-[QuestDB time zone database documentation](/docs/guides/working-with-timestamps-timezones/).
 
 **Arguments:**
 

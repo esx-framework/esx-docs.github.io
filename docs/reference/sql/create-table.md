@@ -250,7 +250,7 @@ The same table can be created and a designated timestamp may be specified. New
 records with timestamps which are out-of-order (O3) chronologically will be
 ordered at the point of ingestion. Configuring how the system handles ingestion
 of out-of-order records is done via
-[commit lag](/docs/guides/out-of-order-commit-lag/) configuration.
+[commit lag]() configuration.
 
 ```questdb-sql title="Adding a designated timestamp"
 CREATE TABLE my_table(symb SYMBOL, price DOUBLE, ts TIMESTAMP, s STRING)
@@ -342,4 +342,4 @@ PARTITION BY DAY WITH maxUncommittedRows=250000, commitLag = 240s
 
 For more information on out-of-order lag and uncommitted rows, see the
 documentation for
-[out-of-order data commits](/docs/guides/out-of-order-commit-lag/).
+[out-of-order data commits]().

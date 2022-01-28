@@ -190,11 +190,6 @@ const Team = () => {
             <p>Here&apos;s what our team say about working at QuestDB:</p>
             <div className={teCss.team__articles}>
               <div className={teCss.team__article}>
-                <h4 className={teCss.team__article__title}>
-                  <a href="/blog/2021/11/09/miguel-arregui-working-at-questdb">
-                    Why I joined QuestDB as a core database engineer
-                  </a>
-                </h4>
                 <div className={teCss.team__article__details}>
                   <div className={teCss.team__article__image}>
                     <img

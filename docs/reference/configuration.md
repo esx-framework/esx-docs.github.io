@@ -518,7 +518,6 @@ provided in the `./conf/log.conf` file, in this case in `./questdb-docker.log`.
 QuestDB includes a log writer that sends any message logged at critical level
 (logger.critical("may-day")) to Prometheus Alertmanager over a TCP/IP socket.
 Details for configuring this can be found in the
-[Prometheus documentation](/docs/third-party-tools/prometheus/).
 
 To configure this writer, add it to the `writers` config alongside other log
 writers.

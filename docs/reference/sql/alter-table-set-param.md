@@ -24,7 +24,7 @@ functions which are described in the
 
 The following two sections describe table parameters relating to out-of-order
 ingestion. For context on commit lag and max uncommitted rows, see the guide for
-[configuring commit lag of out-of-order data](/docs/guides/out-of-order-commit-lag/).
+[configuring commit lag of out-of-order data]().
 
 ### commitLag
 

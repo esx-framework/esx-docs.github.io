@@ -208,11 +208,6 @@ timestamp.
 
 ### ALIGN TO CALENDAR TIME ZONE
 
-A time zone may be provided for sampling with calendar alignment. Details on the
-options for specifying time zones with available formats are provided in the
-guide for
-[working with timestamps and time zones](/docs/guides/working-with-timestamps-timezones/).
-
 ```questdb-sql
 SELECT ts, count() FROM sensors
 SAMPLE BY 1d

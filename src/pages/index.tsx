@@ -105,9 +105,9 @@ const FeatureTabs = () => {
                 [meCss["menu__panel--active"]]: opened === "integration",
               })}
             >
-              <p className={prCss.property}>New Releases daily</p>
-              <p className={prCss.property}>Widely Used</p>
-              <p className={prCss.property}>Add Addons with ease</p>
+              <p className={prCss.property}>New Releases Daily</p>
+              <p className={prCss.property}>Widely Adopted/</p>
+              <p className={prCss.property}>Easy To Adapt</p>
               <p className={prCss.property}>Easy to install</p>
               <p className={prCss.property}>Txadmin Intergration</p>
             </div>
@@ -175,10 +175,6 @@ git clone https://github.com/esx-framework/esx-legacy`}
             rel="noopener noreferrer"
             target="_blank"
           >
-            <SvgImage
-              image={<DockerLogo className={doCss.docker__icon} />}
-              title="Docker"
-            />
           </a>
         </pre>
       </div>

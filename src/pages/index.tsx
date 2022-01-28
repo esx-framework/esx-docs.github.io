@@ -82,7 +82,7 @@ const FeatureTabs = () => {
                 [meCss["menu__panel--active"]]: opened === "optimised",
               })}
             >
-              <p className={prCss.property}>0.00ms base</p>
+              <p className={prCss.property}>0.00ms Base</p>
               <p className={prCss.property}>Oxmysql</p>
               <p className={prCss.property}>Statebags</p>
               <p className={prCss.property}>Optimised Functions</p>
@@ -176,7 +176,7 @@ git clone https://github.com/esx-framework/esx-legacy`}
 }
 
 const Home = () => {
-  const title = "ESX-Framework | FiveM Framework"
+  const title = "ESX | FiveM Framework"
 
   return (
     <Layout

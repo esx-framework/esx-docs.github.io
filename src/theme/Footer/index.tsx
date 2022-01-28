@@ -65,11 +65,11 @@ const Footer = () => {
           )}
         >
           <img
-            alt="QuestDB logo"
+            alt="ESX logo"
             className={footerStyles.footer__logo}
             height={80}
             src="/img/favicon.png"
-            title="QuestDB - Fastest open source database for time series and analytics"
+            title="ESX - The Leading FiveM Framework"
             width={98}
           />
           <p className={footerStyles.footer__tagline}>{siteConfig.tagline}</p>
@@ -125,20 +125,6 @@ const Footer = () => {
       <div className={footerStyles.footer__bottom}>
         <p className={footerStyles.footer__copyright}>
           {customFields.copyright}
-          <ul>
-            <li className={footerStyles.footer__item}>
-              <a className={footerStyles.footer__link} href="/privacy-notice/">
-                Privacy
-              </a>
-            </li>
-          </ul>
-          <ul>
-            <li className={footerStyles.footer__item}>
-              <a className={footerStyles.footer__link} href="/terms/">
-                Terms
-              </a>
-            </li>
-          </ul>
         </p>
       </div>
     </footer>

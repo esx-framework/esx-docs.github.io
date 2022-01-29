@@ -1,4 +1,4 @@
-# UI.ShowInventoryItemNotification
+# ShowInventoryItemNotification
 
 ```lua
 ESX.UI.ShowInventoryItemNotification(add, item, count)

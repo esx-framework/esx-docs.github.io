@@ -1,4 +1,4 @@
-# UI.Menu.CloseAll
+# Menu.CloseAll
 
 ```lua
 ESX.UI.Menu.CloseAll()

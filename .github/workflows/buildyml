@@ -43,6 +43,7 @@ jobs:
           REPO: self
           BRANCH: build # The branch name where you want to push the assets
         with:
+          local-dir: ./build
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}

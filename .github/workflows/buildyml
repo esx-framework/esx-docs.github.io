@@ -45,6 +45,7 @@ jobs:
           FOLDER: build # The directory where your assets are generated
         with:
           local-dir: ./build/
+          timeout-minutes: 15 
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}

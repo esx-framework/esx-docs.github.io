@@ -8,7 +8,7 @@
     "start": "docusaurus start",
     "pre-build": "",
     "prebuild": "docusaurus clear && npm run prestart",
-    "build": "USE_SIMPLE_CSS_MINIFIER=true PWA_SW_CUSTOM= docusaurus build",
+    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
@@ -87,14 +87,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "static/img/**/*": "scripts/check-size-hook.sh"
   },
   "resolutions": {
     "sharp": "0.26.3"

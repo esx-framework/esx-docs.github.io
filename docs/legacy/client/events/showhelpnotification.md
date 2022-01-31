@@ -18,4 +18,4 @@ TriggerClientEvent('esx:showHelpNotification', source, 'Hit ~INPUT_CONTEXT~ to d
 
 ## Note
 
-Do not use this event for client side, instead use [ESX.ShowHelpNotification](../functions/showhelpnotification.md)
+Do not use this event for client side, instead use [ESX.ShowHelpNotification](./../functions/showhelpnotification.md)

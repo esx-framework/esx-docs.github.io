@@ -68,9 +68,9 @@ const Footer = () => {
             alt="ESX logo"
             className={footerStyles.footer__logo}
             height={80}
-            src="/img/favicon.png"
+            src="src\assets\img\favi.png"
             title="ESX - The Leading FiveM Framework"
-            width={98}
+            width={290}
           />
           <p className={footerStyles.footer__tagline}>{siteConfig.tagline}</p>
 

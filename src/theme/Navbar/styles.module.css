@@ -9,21 +9,21 @@
 
 .brand {
   display: block;
-  height: 30px;
-  width: 119px;
+  height: 60px;
+  width: 170px;
   min-width: 119px;
   margin-right: var(--ifm-navbar-item-padding-horizontal);
   border: 0;
   overflow: hidden;
   text-indent: -999px;
   white-space: nowrap;
-  background-image: url(/static/favicon.png);
-  background-size: 40% 100%;
+  background-image: url(./../../assets/img/favi.png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 :global(html[data-theme="light"]) .brand {
-  background-image: url(/static/favicon.png);
+  background-image: url(./../../assets/img/favi.png);
 }
 
 .inner {

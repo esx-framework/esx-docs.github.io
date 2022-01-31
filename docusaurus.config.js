@@ -37,11 +37,11 @@ const config = {
   url: `https://${consts.domain}`,
   baseUrl: "/",
   baseUrlIssueBanner: false,
-  favicon: "/img/favicon.png",
+  favicon: "src/img/favicon.png",
   organizationName: "ESX-Framework",
   projectName: "esx-framework",
   customFields: customFields,
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   plugins: [
     require.resolve("./plugins/fetch-latest-release/index"),
@@ -114,7 +114,7 @@ const config = {
       title: "ESX",
       logo: {
         alt: "ESX-Framework",
-        src: "/img/favicon.png",
+        src: "src/img/favicon.png",
       },
       items: [
         {

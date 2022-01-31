@@ -147,7 +147,7 @@ const Top = () => {
 
         <div className={juCss.jumbotron__cta}>
           <Button className={juCss.jumbotron__link} href={customFields.demoUrl}>
-            Live Demo
+            Demo Server
           </Button>
           <Button
             className={clsx(

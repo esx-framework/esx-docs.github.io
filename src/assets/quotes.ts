@@ -18,7 +18,7 @@ const quotes: Quote[] = [
     website: "https://www.airbus.com/",
     logo: {
       alt: "Airbus logo",
-      src: "/img/pages/customers/cards/airbus.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -32,7 +32,7 @@ const quotes: Quote[] = [
     website: "https://www.yahoo.com/",
     logo: {
       alt: "Yahoo logo",
-      src: "/img/pages/customers/cards/yahoo.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -46,7 +46,7 @@ const quotes: Quote[] = [
     website: "https://www.keplercheuvreux.com/en/",
     logo: {
       alt: "Kepler logo",
-      src: "/img/pages/customers/cards/kepler.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -60,7 +60,7 @@ const quotes: Quote[] = [
     website: "https://aquis.eu/",
     logo: {
       alt: "Aquis Exchange logo",
-      src: "/img/pages/customers/cards/aquis.svg",
+      src: "/img/favicon.png",
       height: 30,
       width: 100,
       offset: 5,
@@ -75,7 +75,7 @@ const quotes: Quote[] = [
     website: "https://www.publicissapient.com/",
     logo: {
       alt: "Sapient logo",
-      src: "/img/pages/customers/cards/sapient.svg",
+      src: "/img/favicon.png",
       height: 28,
       width: 140,
     },
@@ -89,7 +89,7 @@ const quotes: Quote[] = [
     website: "https://syndica.io",
     logo: {
       alt: "Syndica logo",
-      src: "/img/pages/customers/cards/syndica.svg",
+      src: "/img/favicon.png",
       height: 30,
       width: 113,
     },
@@ -103,7 +103,7 @@ const quotes: Quote[] = [
     website: "https://www.datron.com/",
     logo: {
       alt: "Datron logo",
-      src: "/img/pages/customers/cards/datron.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -117,7 +117,7 @@ const quotes: Quote[] = [
     website: "https://www.ably.io/",
     logo: {
       alt: "Ably logo",
-      src: "/img/pages/customers/cards/ably.svg",
+      src: "/img/favicon.png",
       height: 46,
       width: 120,
     },
@@ -131,7 +131,7 @@ const quotes: Quote[] = [
     website: "https://toggle.ai/",
     logo: {
       alt: "Toggle logo",
-      src: "/img/pages/customers/cards/toggle.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -145,7 +145,7 @@ const quotes: Quote[] = [
     website: "https://www.turktelekom.com.tr/en",
     logo: {
       alt: "Türk Telekom logo",
-      src: "/img/pages/customers/logos/turk_telekom.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -159,7 +159,7 @@ const quotes: Quote[] = [
     website: "https://www.samtec.com/",
     logo: {
       alt: "Samtec logo",
-      src: "/img/pages/customers/cards/samtec.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },
@@ -173,7 +173,7 @@ const quotes: Quote[] = [
     website: "https://www.biba.uni-bremen.de/en/institute/infrastructure.html",
     logo: {
       alt: "BIBA logo",
-      src: "/img/pages/customers/cards/biba.svg",
+      src: "/img/favicon.png",
       height: 56,
       width: 140,
     },

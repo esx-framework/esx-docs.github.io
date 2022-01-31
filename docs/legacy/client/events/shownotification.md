@@ -25,4 +25,4 @@ This event shows a basic notification to the player. This is what you'll want to
 
 ## Note
 
-Do not use this event for client side, instead use [ESX.ShowNotification](../functions/shownotification.md)
+Do not use this event for client side, instead use [ESX.ShowNotification](./../functions/shownotification.md)

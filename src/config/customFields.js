@@ -7,7 +7,7 @@ module.exports = {
     "ESX is the Leading Framework for FiveM",
   domain: consts.domain,
   githubOrgUrl: consts.githubOrgUrl,
-  githubUrl: `${consts.githubOrgUrl}/esx-infinity`,
+  githubUrl: `${consts.githubOrgUrl}/esx-legacy`,
   helmVersion: "0.11.0",
   linkedInUrl: "https://www.linkedin.com/company/questdb/",
   oneLiner: "ESX: The only framework you need",

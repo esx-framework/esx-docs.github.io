@@ -118,7 +118,7 @@ function Navbar(): JSX.Element {
             </svg>
           </div>
           <a className={clsx("navbar__brand", styles.brand)} href="/">
-            ESX-Framework
+            ESX Framework
           </a>
           {leftItems.map((item, i) => (
             <NavbarItem {...item} key={i} />

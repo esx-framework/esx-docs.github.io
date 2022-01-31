@@ -46,4 +46,4 @@ end
 
 ## Also See
 
-[ESX.ShowAdvancedNotification](../showadvancednotification.md)
+[ESX.ShowAdvancedNotification](./../showadvancednotification.md)

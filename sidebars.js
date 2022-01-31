@@ -149,5 +149,19 @@ module.exports = {
       "legacy/installation",
       ],
     },
+    {
+      label: "Infinity",
+      type: "category",
+      items: [
+      "infinity/installation",
+      ],
+    },
+    {
+      label: "Reborn",
+      type: "category",
+      items: [
+      "reborn/installation",
+      ],
+    },
   ].filter(Boolean),
 }

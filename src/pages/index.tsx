@@ -96,9 +96,9 @@ const FeatureTabs = () => {
                 [meCss["menu__panel--active"]]: opened === "Legacy",
               })}
             >
-              <p className={prCss.property}>Community Supported</p> 
-              <p className={prCss.property}>Easily Adaptable</p> 
-              <p className={prCss.property}>Varitey Of Community Scripts</p> 
+              <p className={prCss.property}>Community Supported</p>
+              <p className={prCss.property}>Easily Adaptable</p>
+              <p className={prCss.property}>Varitey Of Community Scripts</p>
               <p className={prCss.property}>Wide Compatibilty</p>
             </div>
 
@@ -115,6 +115,49 @@ const FeatureTabs = () => {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+  )
+}
+
+const ESXInfinity = () => {
+  return (
+    <section className={clsx(seCss["section--inner"])}>
+      <div className={clsx(seCss["section--inner"])}>
+        <h2
+          className={clsx(
+            seCss.section__title,
+            seCss["section__title--wide"],
+            "text--center",
+          )}
+        >
+          ESX Infinity
+        </h2>
+
+        <p
+          className={clsx(
+            seCss.section__subtitle,
+            seCss["section__subtitle--jumbotron"],
+            seCss["section__subtitle--accent"],
+          )}
+        >
+          The All-new, Refreshed ESX with more features than ever before!
+          <div className={juCss.jumbotron__cta}>
+            <Button className={juCss.jumbotron__link} href={customFields.patreonUrl}>
+              Beta Access
+            </Button>
+            <Button
+              className={clsx(
+                juCss.jumbotron__link,
+                juCss["jumbotron__cta--github"],
+              )}
+              href={customFields.patreonUrl}
+              variant="secondary"
+            >
+              Information
+            </Button>
+          </div>
+        </p>
       </div>
     </section>
   )
@@ -150,7 +193,7 @@ const Top = () => {
 
         <div className={juCss.jumbotron__cta}>
           <Button className={juCss.jumbotron__link} href={customFields.patreonUrl}>
-            Beta Access
+            patreon
           </Button>
           <Button
             className={clsx(
@@ -190,6 +233,7 @@ const Home = () => {
     >
       <Top />
       <FeatureTabs />
+      <ESXInfinity />
     </Layout>
   )
 }

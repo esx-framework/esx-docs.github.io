@@ -17,7 +17,7 @@ plugins/*/compiled
 .env.test.local
 .env.production.local
 snippets/db
-snippets/package-lock.json
+snippets/package.json
 snippets/yarn.lock
 
 npm-debug.log*

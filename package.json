@@ -4,7 +4,7 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "prestart": "tsc --project plugins/tsconfig.json",
+    "prestart": "tsc --project tsconfig.json",
     "start": "docusaurus start",
     "pre-build": "",
     "prebuild": "docusaurus clear && npm run prestart",

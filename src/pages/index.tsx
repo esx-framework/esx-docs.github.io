@@ -149,8 +149,8 @@ const Top = () => {
         </p>
 
         <div className={juCss.jumbotron__cta}>
-          <Button className={juCss.jumbotron__link} href={customFields.demoUrl}>
-            Demo Server
+          <Button className={juCss.jumbotron__link} href={customFields.patreonUrl}>
+            Beta Access
           </Button>
           <Button
             className={clsx(

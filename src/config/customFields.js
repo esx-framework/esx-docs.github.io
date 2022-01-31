@@ -3,6 +3,7 @@ const consts = require("./consts")
 module.exports = {
   copyright: `Copyright © ${new Date().getFullYear()} ESX Framework`,
   demoUrl: `https://demo.${consts.domain}`,
+  patreonUrl: `https://www.patreon.com/esx`,
   description:
     "ESX is the Leading Framework for FiveM",
   domain: consts.domain,

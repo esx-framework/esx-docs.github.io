@@ -26,6 +26,7 @@ declare module "@docusaurus/useDocusaurusContext" {
         copyright: string
         crunchbaseUrl: string
         demoUrl: string
+        patreonUrl: string
         description: string
         dockerUrl: string
         domain: string

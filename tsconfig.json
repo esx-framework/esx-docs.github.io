@@ -41,9 +41,6 @@
       "@theme/Input": ["src/theme/Input"],
       "@theme/DocSidebar": ["src/theme/DocSidebar"],
       "@theme/Screenshot": ["src/theme/Screenshot"],
-      "@theme/TutorialListPage": ["src/theme/TutorialListPage"],
-      "@theme/TutorialPostItem": ["src/theme/TutorialPostItem"],
-      "@theme/TutorialPostPage": ["src/theme/TutorialPostPage"],
       "@theme/useMetadataContext": ["src/theme/useMetadataContext"],
       "@theme/useResizeObserver": ["src/theme/useResizeObserver"],
       "@theme/useWindowWidth": ["src/theme/useWindowWidth"]

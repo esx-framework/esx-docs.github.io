@@ -52,7 +52,6 @@ const config = {
     require.resolve("./plugins/manifest/index"),
     require.resolve("./plugins/delay-code-block-appearance"),
     [
-      require.resolve("./plugins/tutorial/compiled/index"),
       {
         remarkPlugins: [variable, math],
         rehypePlugins: [katex],

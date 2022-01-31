@@ -39,7 +39,7 @@ const config = {
   baseUrlIssueBanner: false,
   favicon: "/img/favicon.png",
   organizationName: "ESX-Framework",
-  projectName: "questdb",
+  projectName: "esx-framework",
   customFields: customFields,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

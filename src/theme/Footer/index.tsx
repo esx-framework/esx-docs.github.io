@@ -68,7 +68,7 @@ const Footer = () => {
             alt="ESX logo"
             className={footerStyles.footer__logo}
             height={80}
-            src="src\assets\img\favi.png"
+            src="/img/favi.png"
             title="ESX - The Leading FiveM Framework"
             width={290}
           />

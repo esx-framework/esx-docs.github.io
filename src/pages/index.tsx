@@ -17,14 +17,14 @@ import seCss from "../css/section.module.css"
 import GithubLogo from "../assets/img/github.svg"
 
 const FeatureTabs = () => {
-  const [opened, setOpened] = useState<"optimised" | "features" | "integration">(
-    "optimised",
+  const [opened, setOpened] = useState<"Infinity" | "Legacy" | "integration">(
+    "Infinity",
   )
   const handleClickIs = useCallback(() => {
-    setOpened("optimised")
+    setOpened("Infinity")
   }, [])
   const handleClickGoodFor = useCallback(() => {
-    setOpened("features")
+    setOpened("Legacy")
   }, [])
   const handleClickIsNot = useCallback(() => {
     setOpened("integration")
@@ -54,17 +54,17 @@ const FeatureTabs = () => {
               className={meCss.menu__button}
               onClick={handleClickIs}
               size="small"
-              variant={opened === "optimised" ? "primary" : "tertiary"}
+              variant={opened === "Infinity" ? "primary" : "tertiary"}
             >
-              Optimisation
+              Infinity
             </Button>
             <Button
               className={meCss.menu__button}
               onClick={handleClickGoodFor}
               size="small"
-              variant={opened === "features" ? "primary" : "tertiary"}
+              variant={opened === "Legacy" ? "primary" : "tertiary"}
             >
-              Features
+              Legacy
             </Button>
             <Button
               className={meCss.menu__button}
@@ -79,23 +79,26 @@ const FeatureTabs = () => {
           <div className={meCss.menu__content}>
             <div
               className={clsx(meCss.menu__panel, {
-                [meCss["menu__panel--active"]]: opened === "optimised",
+                [meCss["menu__panel--active"]]: opened === "Infinity",
               })}
             >
               <p className={prCss.property}>0.00ms Base</p>
               <p className={prCss.property}>Oxmysql</p>
               <p className={prCss.property}>Statebags</p>
-              <p className={prCss.property}>Optimised Functions</p>
+              <p className={prCss.property}>Easy To Use</p>
+              <p className={prCss.property}>Clear Function Naming</p>
+              <p className={prCss.property}>Gamemode Support</p>
+              <p className={prCss.property}>Dynamic PlayerData</p>
             </div>
 
             <div
               className={clsx(meCss.menu__panel, {
-                [meCss["menu__panel--active"]]: opened === "features",
+                [meCss["menu__panel--active"]]: opened === "Legacy",
               })}
             >
-              <p className={prCss.property}>Gamemode Support</p>
-              <p className={prCss.property}>Easy To Use functions</p>
-              <p className={prCss.property}>Dynamic PlayerData</p>
+              <p className={prCss.property}>Community Supported</p> 
+              <p className={prCss.property}>Easily Adaptable</p> 
+              <p className={prCss.property}>Varitey Of Community Scripts</p> 
               <p className={prCss.property}>Wide Compatibilty</p>
             </div>
 
@@ -105,8 +108,8 @@ const FeatureTabs = () => {
               })}
             >
               <p className={prCss.property}>New Releases Daily</p>
-              <p className={prCss.property}>Widely Adopted/</p>
-              <p className={prCss.property}>Easy To Adapt</p>
+              <p className={prCss.property}>Widely Loved</p>
+              <p className={prCss.property}>Drag And Drop</p>
               <p className={prCss.property}>Easy to install</p>
               <p className={prCss.property}>Txadmin Intergration</p>
             </div>

@@ -31,7 +31,7 @@ const FeatureTabs = () => {
   }, [])
 
   return (
-    <section className={clsx(seCss.section, seCss["section--odd"])}>
+    <section className={clsx(seCss["section--inner"], seCss["section--slim--accent"])}>
       <div className={clsx(seCss["section--inner"], seCss["section--center"])}>
         <h2
           className={clsx(
@@ -122,7 +122,7 @@ const FeatureTabs = () => {
 
 const ESXInfinity = () => {
   return (
-    <section className={clsx(seCss["section--inner"])}>
+    <section className={clsx(seCss.section, seCss["section--odd"])}>
       <div className={clsx(seCss["section--inner"])}>
         <h2
           className={clsx(
@@ -131,7 +131,7 @@ const ESXInfinity = () => {
             "text--center",
           )}
         >
-          ESX Infinity
+          ESX Infinity |
         </h2>
 
         <p
@@ -232,8 +232,8 @@ const Home = () => {
       replaceTitle
     >
       <Top />
-      <FeatureTabs />
       <ESXInfinity />
+      <FeatureTabs />
     </Layout>
   )
 }

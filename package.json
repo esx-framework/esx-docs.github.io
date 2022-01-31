@@ -87,6 +87,11 @@
       "last 1 safari version"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "static/img/**/*": "scripts/check-size-hook.sh"
   },

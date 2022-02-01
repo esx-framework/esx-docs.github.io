@@ -97,6 +97,7 @@ const FeatureTabs = () => {
               })}
             >
               <p className={prCss.property}>Community Supported</p>
+              <p className={prCss.property}>Oxmysql</p>
               <p className={prCss.property}>Easily Adaptable</p>
               <p className={prCss.property}>Varitey Of Community Scripts</p>
               <p className={prCss.property}>Wide Compatibilty</p>
@@ -108,6 +109,7 @@ const FeatureTabs = () => {
               })}
             >
               <p className={prCss.property}>New Releases Daily</p>
+              <p className={prCss.property}>Easily Convert Between Versions</p>
               <p className={prCss.property}>Widely Loved</p>
               <p className={prCss.property}>Drag And Drop</p>
               <p className={prCss.property}>Easy to install</p>

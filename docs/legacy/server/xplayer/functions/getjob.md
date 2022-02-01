@@ -1,4 +1,4 @@
-# xPlayer.getJob
+# getJob
 
 ```lua
 xPlayer.getJob()

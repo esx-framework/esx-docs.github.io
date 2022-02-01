@@ -1,4 +1,4 @@
-# xPlayer.hasWeaponComponent
+# hasWeaponComponent
 
 ```lua
 xPlayer.hasWeaponComponent(weaponName, weaponComponent)

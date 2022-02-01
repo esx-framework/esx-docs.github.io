@@ -1,4 +1,4 @@
-# xPlayer.getAccount
+# getAccount
 
 ```lua
 xPlayer.getAccount(account)

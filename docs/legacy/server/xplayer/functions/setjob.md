@@ -1,4 +1,4 @@
-# xPlayer.setJob
+# setJob
 
 ```lua
 xPlayer.setJob(name, grade)

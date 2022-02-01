@@ -1,4 +1,4 @@
-# xPlayer.getName
+# getName
 
 ```lua
 xPlayer.getName()

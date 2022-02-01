@@ -1,4 +1,4 @@
-# xPlayer.updateCoords
+# updateCoords
 
 ```lua
 xPlayer.updateCoords(coords)

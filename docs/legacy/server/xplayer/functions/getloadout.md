@@ -1,4 +1,4 @@
-# xPlayer.getLoadout
+# getLoadout
 
 ```lua
 xPlayer.getLoadout()
@@ -17,7 +17,7 @@ The returned table contains an index-value table, and for each child there is a 
 | label      | string    | Weapon label        |
 | components | table     | Weapon component(s) |
 
-## xPlayer.getLoadout Example
+## Example
 
 ```lua
 for k,v in ipairs(xPlayer.getLoadout()) do

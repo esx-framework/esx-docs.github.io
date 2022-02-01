@@ -1,4 +1,4 @@
-# xPlayer.canSwapItem
+# canSwapItem
 
 ```lua
 xPlayer.canSwapItem(firstItem, firstItemCount, testItem, testItemCount)
@@ -15,7 +15,7 @@ This function is used to determinate if a player can swap an item for some other
 | testItem       | string    | No       | -             | Test item name   |
 | testItemCount  | number    | No       | -             | Test item count  |
 
-## xPlayer.canSwapItem Example
+## Example
 
 ```lua
 if xPlayer.canSwapItem('bread', 1, 'water', 1) then

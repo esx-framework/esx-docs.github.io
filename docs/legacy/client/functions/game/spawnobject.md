@@ -17,7 +17,7 @@ This function spawns an object visible to everyone on the server.
 | coords      | table         | No       | -             | The coords where the object should be spawned. You can also parse an vector type without any issues                        |
 | cb          | function      | Yes      | -             | The returned function when the object has been spawned. The invoked function has one argument, which is the object handle. |
 
-## SpawnObject Example
+## Example
 
 ```lua
 ESX.Game.SpawnObject('prop_cs_cuffs_01', vector3(120.0, -200.0, 30.0), function(object)

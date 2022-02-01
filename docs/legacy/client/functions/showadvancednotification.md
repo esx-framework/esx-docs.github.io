@@ -36,7 +36,7 @@ end
 To specify an texture directory you can either simply parse an already existing notification image, or you can for example create a player mugshot with ESX.
 
 * [Existing Image](https://wiki.gtanet.work/index.php?title=Notification_Pictures)
-* [Player Mugshots](./game/getpedmugshot.md))
+* [Player Mugshots](./game/getpedmugshot))
 
 ## Icon Types
 

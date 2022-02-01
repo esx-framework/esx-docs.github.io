@@ -6,7 +6,7 @@ ESX.Math.GroupDigits(value)
 
 This function groups numbers, making them easier to understand by humans. Used in most nofications when money is showed, for example when buying a new car at the vehicle shop.
 
-#### Math.Round Example
+## Example
 
 ```lua
 local value = 5555

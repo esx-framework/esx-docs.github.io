@@ -1,4 +1,4 @@
-# xPlayer.getWeight
+# getWeight
 
 ```lua
 xPlayer.getWeight()

@@ -1,4 +1,4 @@
-# xPlayer.getGroup
+# getGroup
 
 ```lua
 xPlayer.getGroup()

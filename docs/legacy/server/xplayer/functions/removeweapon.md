@@ -1,4 +1,4 @@
-# xPlayer.removeWeapon
+# removeWeapon
 
 ```lua
 xPlayer.removeWeapon(weaponName)

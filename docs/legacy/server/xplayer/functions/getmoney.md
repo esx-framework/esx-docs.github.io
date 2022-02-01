@@ -1,4 +1,4 @@
-# xPlayer.getMoney
+# getMoney
 
 ```lua
 xPlayer.getMoney()

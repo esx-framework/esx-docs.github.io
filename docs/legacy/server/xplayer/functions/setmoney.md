@@ -1,4 +1,4 @@
-# xPlayer.setMoney
+# setMoney
 
 ```lua
 xPlayer.setMoney(money)

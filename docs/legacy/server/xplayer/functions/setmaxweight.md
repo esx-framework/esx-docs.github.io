@@ -1,4 +1,4 @@
-# xPlayer.setMaxWeight
+# setMaxWeight
 
 ```lua
 xPlayer.setMaxWeight(newWeight)
@@ -12,7 +12,7 @@ This functions sets the max weight that the player can hold in their inventory.
 |-----------|-----------|----------|---------------|----------------|
 | newWeight | number    | No       | -             | New max weight |
 
-#### xPlayer.setMaxWeight Example
+## Example
 
 ```lua
 if xPlayer.group ~= 'user' then

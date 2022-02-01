@@ -1,4 +1,4 @@
-# xPlayer.showHelpNotification
+# showHelpNotification
 
 ```lua
 xPlayer.showHelpNotification(msg, thisFrame, beep, duration)

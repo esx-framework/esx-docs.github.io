@@ -14,7 +14,6 @@ This command gives the user an attachment for their weapon.
 | Weapon     | string    | No       | -             | The weapon to add the component to. |
 | Component  | string    | No       | -             | The Component to add.              |
 
-
-###### Note
+## Note
 
 > You can find the lsit of weapon components [Here](https://wiki.rage.mp/index.php?title=Weapons_Components)

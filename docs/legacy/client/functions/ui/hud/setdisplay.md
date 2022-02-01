@@ -1,4 +1,4 @@
-# HUD.SetDisplay
+# SetDisplay
 
 ```lua
 ESX.UI.HUD.SetDisplay(opacity)

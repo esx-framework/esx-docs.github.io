@@ -1,4 +1,4 @@
-# xPlayer.triggerEvent
+# triggerEvent
 
 ```lua
 xPlayer.triggerEvent(eventName, ...)

@@ -1,4 +1,4 @@
-# xPlayer.getIdentifier
+# getIdentifier
 
 ```lua
 xPlayer.getIdentifier()

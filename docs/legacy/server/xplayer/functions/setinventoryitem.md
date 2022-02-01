@@ -1,4 +1,4 @@
-# xPlayer.setInventoryItem
+# setInventoryItem
 
 ```lua
 xPlayer.setInventoryItem(item, count)

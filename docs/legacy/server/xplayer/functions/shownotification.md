@@ -1,4 +1,4 @@
-# xPlayer.showNotification
+# showNotification
 
 ```lua
 xPlayer.showNotification(msg, flash, saveToBrief, hudColorIndex)

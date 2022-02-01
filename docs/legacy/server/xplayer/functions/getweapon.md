@@ -1,4 +1,4 @@
-# xPlayer.getWeapon
+# getWeapon
 
 ```lua
 xPlayer.getWeapon(weaponName)
@@ -12,7 +12,7 @@ This functions returns the `loadoutNum` and a weapon object for the weapon if th
 |------------|-----------|----------|---------------|-------------|
 | weaponName | string    | No       | -             | Weapon name |
 
-## xPlayer.getWeapon Example
+## Example
 
 ```lua
 	local loadoutNum, weapon = xPlayer.getWeapon('WEAPON_PISTOL')

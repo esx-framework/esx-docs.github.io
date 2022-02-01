@@ -6,7 +6,7 @@ ESX.GetRandomString(length)
 
 This function gets a random string, with the defined length.
 
-#### GetRandomString Example
+## Example
 
 ```lua
 local str = ESX.GetRandomString(5)

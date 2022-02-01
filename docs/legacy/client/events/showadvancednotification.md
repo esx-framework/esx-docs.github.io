@@ -18,4 +18,4 @@ TriggerClientEvent('esx:showAdvancedNotification', source, 'title', 'subject', '
 
 ## Note
 
-Do not use this event for client side, instead use [ESX.ShowAdvancedNotification](./../functions/showadvancednotification.md)
+Do not use this event for client side, instead use [ESX.ShowAdvancedNotification](./../functions/showadvancednotification)

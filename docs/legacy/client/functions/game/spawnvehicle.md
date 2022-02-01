@@ -18,7 +18,7 @@ This function spawns an vehicle visible to everyone on the server.
 | heading     | number        | No       | -             | The heading of the spawned vehicle, must contain a decimal                                                                  |
 | cb          | function      | Yes      | -             | The returned function when the vehicle has been spawned. The invoked function has one argument, which is the vehicle handle |
 
-## SpawnVehicle Example
+## Example
 
 ```lua
 ESX.Game.SpawnVehicle('blista', vector3(120.0, -200.0, 30.0), 100.0, function(vehicle)

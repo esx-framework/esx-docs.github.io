@@ -1,4 +1,4 @@
-# xPlayer.getCoords
+# getCoords
 
 ```lua
 xPlayer.getCoords(useVector)
@@ -12,7 +12,7 @@ This function returns the player's current coordinates on the server. The option
 |-----------|-----------|----------|---------------|--------------------------------------------------------------------------------------|
 | useVector | boolean   | Yes      | -             | Returns an vector3 type if set to `true`, and normally a table with x, y and z pairs |
 
-## xPlayer.getCoords Example
+## Example
 
 ```lua
 local coords = xPlayer.getCoords(true)

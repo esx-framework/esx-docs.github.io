@@ -1,4 +1,4 @@
-# xPlayer.canCarryItem
+# canCarryItem
 
 ```lua
 xPlayer.canCarryItem(item, count)
@@ -13,7 +13,7 @@ This function is used to determinate if a player can carry an item, and is the s
 | item     | string    | No       | -             | Item name   |
 | count    | number    | No       | -             | Item count  |
 
-## xPlayer.canCarryItem Example
+## Example
 
 ```lua
 if targetXPlayer.canCarryItem(itemName, itemCount) then

@@ -1,4 +1,4 @@
-# xPlayer.addInventoryItem
+# addInventoryItem
 
 ```lua
 xPlayer.addInventoryItem(item, count)
@@ -14,9 +14,9 @@ This function adds an inventory item.
 | count    | number    | No       | -             | Count of item to add |
 
 !!! warning
-      This function will not check if the player weight limit exceeds. Recommended to use in comibation with [xPlayer.canCarryItem(item, count)](./cancarryitem.md)
+      This function will not check if the player weight limit exceeds. Recommended to use in comibation with [xPlayer.canCarryItem(item, count)](./cancarryitem)
 
-## xPlayer.addInventoryItem Example
+## Example
 
 ```lua
 if targetXPlayer.canCarryItem(itemName, itemCount) then

@@ -1,4 +1,4 @@
-# HUD.RemoveElement
+# RemoveElement
 
 ```lua
 ESX.UI.HUD.RemoveElement(name)

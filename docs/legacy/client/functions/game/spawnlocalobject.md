@@ -17,7 +17,7 @@ This function spawns a local object, which is only visible to the local player a
 | coords      | table         | No       | -             | The coords where the object should be spawned. You can also parse an vector type without any issues                        |
 | cb          | function      | Yes      | -             | The returned function when the object has been spawned. The invoked function has one argument, which is the object handle. |
 
-## SpawnLocalObject Example
+## Example
 
 ```lua
 ESX.Game.SpawnLocalObject('prop_cs_cuffs_01', vector3(120.0, -200.0, 30.0), function(object)

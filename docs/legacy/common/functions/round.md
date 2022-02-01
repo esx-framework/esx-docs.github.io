@@ -6,7 +6,7 @@ ESX.Math.Round(value, numDecimalPlaces)
 
 This function rounds off a number, and optionally you can parse how many decimals you want (defaults to 0)
 
-#### Math.Round Example
+## Example
 
 ```lua
 local value - 5.444

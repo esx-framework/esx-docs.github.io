@@ -1,4 +1,4 @@
-# xPlayer.kick
+# kick
 
 ```lua
 xPlayer.kick(reason)

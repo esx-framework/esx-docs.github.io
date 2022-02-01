@@ -1,4 +1,4 @@
-# xPlayer.setName
+# setName
 
 ```lua
 xPlayer.setName(newName)

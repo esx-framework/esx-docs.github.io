@@ -1,4 +1,4 @@
-# xPlayer.getInventoryItem
+# getInventoryItem
 
 ```lua
 xPlayer.getInventoryItem(item)

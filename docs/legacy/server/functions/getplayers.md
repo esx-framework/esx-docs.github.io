@@ -8,7 +8,7 @@ This function returns an array of all online players ID's.
 
 You can use this to access each players data.
 
-## GetPlayers Example
+## Example
 
 ```lua
 local xPlayers = ESX.GetPlayers()

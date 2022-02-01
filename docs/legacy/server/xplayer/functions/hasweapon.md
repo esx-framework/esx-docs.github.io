@@ -1,4 +1,4 @@
-# xPlayer.hasWeapon
+# hasWeapon
 
 ```lua
 xPlayer.hasWeapon(weaponName)
@@ -12,7 +12,7 @@ This functions returns if the player has the specified weapon.
 |------------|-----------|----------|---------------|-------------|
 | weaponName | string    | No       | -             | Weapon name |
 
-## xPlayer.hasWeapon Example
+## Example
 
 ```lua
 	if xPlayer.hasWeapon('WEAPON_PISTOL') then

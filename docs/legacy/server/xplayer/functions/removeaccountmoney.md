@@ -1,4 +1,4 @@
-# xPlayer.removeAccountMoney
+# removeAccountMoney
 
 ```lua
 xPlayer.removeAccountMoney(account, money)

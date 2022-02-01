@@ -7,7 +7,7 @@ ESX.Game.IsVehicleEmpty(vehicle)
 Returns A bool for if the Vehicle has no players inside.
 
 
-##ESX.Game.IsVehicleEmpty Example
+## Example
 
 ```lua
 local vehicle = ESX.Game.GetVehicleInDirection()

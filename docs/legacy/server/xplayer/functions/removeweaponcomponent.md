@@ -1,4 +1,4 @@
-# xPlayer.removeWeaponComponent
+# removeWeaponComponent
 
 ```lua
 xPlayer.removeWeaponComponent(weaponName, weaponComponent)
@@ -13,7 +13,7 @@ This function removes a weapon component from a player, if the player has it. Th
 | weaponName      | string    | No       | -             | Weapon name      |
 | weaponComponent | string    | No       | -             | Weapon component |
 
-#### xPlayer.removeWeaponComponent Example
+## Example
 
 ```lua
 local weaponName, weaponComponent = 'WEAPON_PISTOL', 'clip_extended'

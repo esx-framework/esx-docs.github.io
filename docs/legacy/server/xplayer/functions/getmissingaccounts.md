@@ -1,4 +1,4 @@
-# xPlayer.getMissingAccounts
+# getMissingAccounts
 
 ```lua
 xPlayer.getMissingAccounts(cb)

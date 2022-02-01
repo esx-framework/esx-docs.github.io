@@ -1,4 +1,4 @@
-# xPlayer.addWeaponComponent
+# addWeaponComponent
 
 ```lua
 xPlayer.addWeaponComponent(weaponName, weaponComponent)
@@ -13,7 +13,7 @@ This function adds a weapon component to a weapon, if the player has it, the ava
 | weaponName      | string    | No       | -             | Weapon name      |
 | weaponComponent | string    | No       | -             | Weapon component |
 
-## xPlayer.addWeaponComponent Example
+## Example
 
 ```lua
 xPlayer.addWeapon('WEAPON_ASSAULTRIFLE', 50)

@@ -1,4 +1,4 @@
-# xPlayer.addAccountMoney
+# addAccountMoney
 
 ```lua
 xPlayer.addAccountMoney(account, money)
@@ -13,7 +13,7 @@ This function adds account money.
 | account  | string    | No       | -             | An valid account, a list of valid accounts can be found in the configuration file |
 | money    | number    | No       | -             | Amount of money to add                                                            |
 
-## xPlayer.addAccountMoney Example
+## Example
 
 ```lua
 	local xPlayer = ESX.GetPlayerFromId(playerId)

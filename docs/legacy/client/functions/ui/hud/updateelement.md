@@ -1,4 +1,4 @@
-# HUD.UpdateElement
+# UpdateElement
 
 ```lua
 ESX.UI.HUD.UpdateElement(name, data)

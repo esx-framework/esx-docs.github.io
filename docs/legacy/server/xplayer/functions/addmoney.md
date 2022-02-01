@@ -1,4 +1,4 @@
-# xPlayer.addMoney
+# addMoney
 
 ```lua
 xPlayer.addMoney(money)

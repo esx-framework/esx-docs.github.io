@@ -1,4 +1,4 @@
-# xPlayer.removeWeaponAmmo
+# removeWeaponAmmo
 
 ```lua
 xPlayer.removeWeaponAmmo(weaponName, ammoCount)

@@ -13,7 +13,7 @@ This function registers an item as usable.
 | item     | string    | No       | -             | Item to register as usable |
 | cb       | function  | No       | -             | Callback function          |
 
-## RegisterUsableItem Example
+## Example
 
 ```lua
 ESX.RegisterUsableItem('bread', function(playerId)

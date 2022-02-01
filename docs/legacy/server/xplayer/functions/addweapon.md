@@ -1,4 +1,4 @@
-# xPlayer.addWeapon
+# addWeapon
 
 ```lua
 xPlayer.addWeapon(weaponName, ammo)

@@ -1,4 +1,4 @@
-# xPlayer.setWeaponTint
+# setWeaponTint
 
 ```lua
 xPlayer.setWeaponTint(weaponName, weaponTintIndex)

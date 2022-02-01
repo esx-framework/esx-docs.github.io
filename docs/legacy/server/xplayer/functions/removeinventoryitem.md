@@ -1,4 +1,4 @@
-# xPlayer.removeInventoryItem
+# removeInventoryItem
 
 ```lua
 xPlayer.removeInventoryItem(item, count)

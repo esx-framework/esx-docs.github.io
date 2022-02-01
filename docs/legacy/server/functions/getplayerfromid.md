@@ -10,7 +10,7 @@ This function gets a ESX player object from a server id. Returns `nil` for inval
 
 | Argument | Data Type | Optional | Default Value | Explanation          |
 |----------|-----------|----------|---------------|----------------------|
-| playerId | number    | No       | -             | The player server id |
+| playerId | number    | No       | -             | The Server ID of the Target Player|
 
 ## Example
 
@@ -19,7 +19,7 @@ RegisterNetEvent('esx_ambulancejob:healMe')
 AddEventHandler('esx_ambulancejob:healMe', function()
 	local xPlayer = ESX.GetPlayerFromId(source)
 
-	if xPlayer.job.name == 'ambulance' then
+	if xPlayer.getJob().name == 'ambulance' then
 		xPlayer.triggerEvent('esx_basicneeds:healPlayer')
 	end
 end)

@@ -17,14 +17,14 @@ This function triggers a server callback. See [ESX.RegisterServerCallback](./../
 | cb       | function  | No       | -             | The returned function when the async task has completed. The invoked function a varied size of arguments depending on how many arguments are parsed from the server |
 | args     | any       | Yes      | -             | Any arguments to parse to the async function                                                                                                                        |
 
-## TriggerServerCallback Example
+## Example
 
-```
+```lua
 local myAgument = 'hello'
 
 ESX.TriggerServerCallback('esx_example:test', function(isBusy, numKills)
-	print(isBusy, numKills)
-	print('this code is an asynchronous task')
+ print(isBusy, numKills)
+ print('this code is an asynchronous task')
 end, myAgument)
 
 print('this code is running in sync')

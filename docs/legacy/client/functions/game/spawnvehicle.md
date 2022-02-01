@@ -22,7 +22,7 @@ This function spawns an vehicle visible to everyone on the server.
 
 ```lua
 ESX.Game.SpawnVehicle('blista', vector3(120.0, -200.0, 30.0), 100.0, function(vehicle)
-	print(DoesEntityExist(vehicle), 'this code is async!')
+  print(DoesEntityExist(vehicle), 'this code is async!')
 end)
 
 print('this code is sync!')

@@ -17,15 +17,15 @@ This function shows an advanced notification.
 | iconType      | number    | No       | -             | Icon type, see [Icon Types](#Icon_Types) for accepted values                                      |
 | flash         | boolean   | Yes      | false         | Flash the notification?                                                                           |
 | savetoBreif   | boolean   | Yes      | true          | Save to breif? Located in Pause Menu > Help                                                       |
-| hudColorIndex | number    | Yes      | nil           | The background color, see https://gyazo.com/68bd384455fceb0a85a8729e48216e15 for available colors |
+| hudColorIndex | number    | Yes      | nil           | The background color, see <https://gyazo.com/68bd384455fceb0a85a8729e48216e15> for available colors |
 
 ## Example
 
 ```lua
 function notification(msg)
-	local mugshot, mugshotStr = ESX.Game.GetPedMugshot(PlayerPedId())
-	ESX.ShowAdvancedNotification('title', 'subject', 'msg', mugshotStr, 1)
-	UnregisterPedheadshot(mugshot)
+  local mugshot, mugshotStr = ESX.Game.GetPedMugshot(PlayerPedId())
+  ESX.ShowAdvancedNotification('title', 'subject', 'msg', mugshotStr, 1)
+  UnregisterPedheadshot(mugshot)
 end
 ```
 

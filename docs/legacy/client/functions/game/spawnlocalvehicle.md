@@ -22,7 +22,7 @@ This function spawns a local vehicle, which is only visible to the local player 
 
 ```lua
 ESX.Game.SpawnLocalVehicle('blista', vector3(120.0, -200.0, 30.0), 100.0, function(vehicle)
-	print(DoesEntityExist(vehicle), 'this code is async!')
+  print(DoesEntityExist(vehicle), 'this code is async!')
 end)
 
 print('this code is sync!')

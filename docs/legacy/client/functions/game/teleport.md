@@ -23,7 +23,7 @@ This function teleports an entity.
 local playerPed = PlayerPedId()
 
 ESX.Game.Teleport(playerPed, {x = 120.0, y = -200.0, z = 30.0, heading = 100.0}, function()
-	print('this code is async!')
+  print('this code is async!')
 end)
 
 print('this code is sync!')

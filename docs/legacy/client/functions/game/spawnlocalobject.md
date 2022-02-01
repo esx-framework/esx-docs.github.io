@@ -21,7 +21,7 @@ This function spawns a local object, which is only visible to the local player a
 
 ```lua
 ESX.Game.SpawnLocalObject('prop_cs_cuffs_01', vector3(120.0, -200.0, 30.0), function(object)
-	print(DoesEntityExist(object), 'this code is async!')
+  print(DoesEntityExist(object), 'this code is async!')
 end)
 
 print('this code is sync!')

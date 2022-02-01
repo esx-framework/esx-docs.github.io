@@ -9,7 +9,7 @@ This function generates a mugshot of the ped usable in various applications.
 ## Argument
 
 | Argument | Data Type | Optional | Default Value | Explanation    |
-|----------|-----------|----------|---------------|----------------|
+| -------- | --------- | -------- | ------------- | -------------- |
 | ped      | string    | No       | -             | The ped handle |
 
 ## Example
@@ -21,24 +21,24 @@ This function generates a mugshot of the ped usable in various applications.
 ESX = nil
 
 Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
+ while ESX == nil do
+  TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+  Citizen.Wait(0)
+ end
 
-	while true do
-		Citizen.Wait(10)
+ while true do
+  Citizen.Wait(10)
 
-		if IsControlJustReleased(0, 22) then -- Spacebar Key
-			notification('Hello')
-		end
-	end
+  if IsControlJustReleased(0, 22) then -- Spacebar Key
+   notification('Hello')
+  end
+ end
 end)
 
 function notification(msg)
-	local mugshot, mugshotStr = ESX.Game.GetPedMugshot(GetPlayerPed(-1))
-	ESX.ShowAdvancedNotification('Test', 'Testing!', msg, mugshotStr, 1)
-	UnregisterPedheadshot(mugshot)
+  local mugshot, mugshotStr = ESX.Game.GetPedMugshot(GetPlayerPed(-1))
+  ESX.ShowAdvancedNotification('Test', 'Testing!', msg, mugshotStr, 1)
+  UnregisterPedheadshot(mugshot)
 end
 ```
 

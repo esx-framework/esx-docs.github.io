@@ -12,12 +12,12 @@ This function sets various properties for an vehicle object.
 local playerPed = PlayerPedId()
 
 if IsPedInAnyVehicle(playerPed, false) then
-	local vehicle = GetVehiclePedIsIn(playerPed, false)
+ local vehicle = GetVehiclePedIsIn(playerPed, false)
 
-	ESX.Game.SetVehicleProperties(vehicle, {
-		plate = 'ESX',
-		modTurbo = true
-	})
+ ESX.Game.SetVehicleProperties(vehicle, {
+  plate = 'ESX',
+  modTurbo = true
+ })
 end
 ```
 

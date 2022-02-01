@@ -21,7 +21,7 @@ This function spawns an object visible to everyone on the server.
 
 ```lua
 ESX.Game.SpawnObject('prop_cs_cuffs_01', vector3(120.0, -200.0, 30.0), function(object)
-	print(DoesEntityExist(object), 'this code is async!')
+  print(DoesEntityExist(object), 'this code is async!')
 end)
 
 print('this code is sync!')

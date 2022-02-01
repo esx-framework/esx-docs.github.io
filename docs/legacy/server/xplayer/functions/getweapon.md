@@ -15,11 +15,11 @@ This functions returns the `loadoutNum` and a weapon object for the weapon if th
 ## Example
 
 ```lua
-	local loadoutNum, weapon = xPlayer.getWeapon('WEAPON_PISTOL')
+local loadoutNum, weapon = xPlayer.getWeapon('WEAPON_PISTOL')
 
-	if weapon then
-		print(xPlayer.loadout[loadoutNum].label)
-	else
-		print('weapon not found!')
-	end
+if weapon then
+  print(xPlayer.loadout[loadoutNum].label)
+else
+  print('weapon not found!')
+end
 ```

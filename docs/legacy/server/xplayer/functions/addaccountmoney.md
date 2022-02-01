@@ -4,7 +4,7 @@
 xPlayer.addAccountMoney(account, money)
 ```
 
-This function adds account money.
+This function adds `Money` Instead the specified `account`.
 
 ## Arguments
 
@@ -16,6 +16,6 @@ This function adds account money.
 ## Example
 
 ```lua
-	local xPlayer = ESX.GetPlayerFromId(playerId)
-	xPlayer.addAccountMoney('bank', 1000)
+  local xPlayer = ESX.GetPlayerFromId(playerId)
+  xPlayer.addAccountMoney('bank', 1000)
 ```

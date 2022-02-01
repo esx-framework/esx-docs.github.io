@@ -17,8 +17,8 @@ This function registers an item as usable.
 
 ```lua
 ESX.RegisterUsableItem('bread', function(playerId)
-	local xPlayer = ESX.GetPlayerFromId(playerId)
-	xPlayer.removeInventoryItem('bread', 1)
-	xPlayer.showNotification('That was delicious.. right?')
+  local xPlayer = ESX.GetPlayerFromId(playerId)
+  xPlayer.removeInventoryItem('bread', 1)
+  xPlayer.showNotification('That was delicious.. right?')
 end)
 ```

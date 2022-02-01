@@ -19,9 +19,9 @@ This function is used to determinate if a player can swap an item for some other
 
 ```lua
 if xPlayer.canSwapItem('bread', 1, 'water', 1) then
-	xPlayer.removeInventoryItem('bread', 1)
-	xPlayer.addInventoryItem('water', 1)
+  xPlayer.removeInventoryItem('bread', 1)
+  xPlayer.addInventoryItem('water', 1)
 else
-	xPlayer.showNotification('You don\'t have enough inventory space.')
+  xPlayer.showNotification('You don\'t have enough inventory space.')
 end
 ```

@@ -19,6 +19,6 @@ This function removes a weapon component from a player, if the player has it. Th
 local weaponName, weaponComponent = 'WEAPON_PISTOL', 'clip_extended'
 
 if xPlayer.hasWeaponComponent(weaponName, weaponComponent) then
-	xPlayer.removeWeaponComponent(weaponName, weaponComponent)
+  xPlayer.removeWeaponComponent(weaponName, weaponComponent)
 end
 ```

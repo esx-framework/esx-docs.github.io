@@ -15,9 +15,9 @@ This functions returns if the player has the specified weapon.
 ## Example
 
 ```lua
-	if xPlayer.hasWeapon('WEAPON_PISTOL') then
-		print('found weapon')
-	else
-		print('weapon not found!')
-	end
+if xPlayer.hasWeapon('WEAPON_PISTOL') then
+  print('found weapon')
+else
+  print('weapon not found!')
+end
 ```

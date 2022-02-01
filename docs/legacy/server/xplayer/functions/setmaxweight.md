@@ -15,7 +15,8 @@ This functions sets the max weight that the player can hold in their inventory.
 ## Example
 
 ```lua
-if xPlayer.group ~= 'user' then
-	xPlayer.setMaxWeight(ESX.GetConfig().MaxWeight + 30)
+-- Adds 30 to the max weight if they are police :)
+if xPlayer.getJob().name == "police" then
+  xPlayer.setMaxWeight(ESX.GetConfig().MaxWeight + 30)
 end
 ```

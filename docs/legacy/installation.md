@@ -4,8 +4,8 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ## Requirements
 
-- [mysql-async](https://github.com/brouznouf/fivem-mysql-async)
-- [async](https://github.com/esx-framework/async)
+- [oxmysql](https://github.com/overextended/oxmysql)
+- spawnmanager
 
 ## Download
 
@@ -18,6 +18,7 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ### Manually
 
+- Download and Install `oxmysql` - [Documentation](https://overextended.github.io/oxmysql/)
 - Download <https://github.com/esx-framework/esx-legacy>
 - Put it in the `resource` directory
 
@@ -34,12 +35,13 @@ add_ace resource.es_extended command.remove_principal allow
 add_ace resource.es_extended command.stop allow
 
 
-start mysql-async
-start es_extended
+ensure oxmysql
+ensure spawnmanager
+ensure es_extended
 
-start esx_menu_default
-start esx_menu_list
-start esx_menu_dialog
+ensure esx_menu_default
+ensure esx_menu_list
+ensure esx_menu_dialog
 ```
 
 - Make Sure you are **NOT** running an of these resources:

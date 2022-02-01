@@ -276,7 +276,6 @@ module.exports = {
                 "legacy/server/functions/registerservercallback",
                 "legacy/server/functions/registerusableitem",
                 "legacy/server/functions/saveplayer",
-                "legacy/server/functions/saveplayers",
                 "legacy/server/functions/trace",
                 "legacy/server/functions/useitem",
               ],

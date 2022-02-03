@@ -25,6 +25,14 @@ Instructions on how to download and install the basics of **ES Extended**.
 ## Install
 
 - Import `es_extended.sql` in your database
+
+- Make Sure you are **NOT** Using any of these resources:
+  - `essentialmode`
+  - `basic-gamemode`
+  - `fivem-map-skater`
+  - `fivem-map-hipster`
+  - `default_spawnpoint`
+  
 - Make sure your `server.cfg` to looks similar to this
 
 ```diff
@@ -44,9 +52,3 @@ ensure esx_menu_list
 ensure esx_menu_dialog
 ```
 
-- Make Sure you are **NOT** running an of these resources:
-  - `essentialmode`
-  - `basic-gamemode`
-  - `fivem-map-skater`
-  - `fivem-map-hipster`
-  - `default_spawnpoint`

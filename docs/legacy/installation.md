@@ -20,11 +20,14 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 - Download and Install `oxmysql` - [Documentation](https://overextended.github.io/oxmysql/)
 - Download <https://github.com/esx-framework/esx-legacy>
-- Put it in the `resource` directory
 
 ## Install
 
-- Import `es_extended.sql` in your database
+- Extract the `[esx]` and `[esx_addons]` folders
+- Place Them into the `Resouces` folder in your server.
+- Go into the `[SQL]` Folder
+- Import `base.sql` in your database
+- Import `addons.sql` in your database
 
 - Make Sure you are **NOT** Using any of these resources:
   - `essentialmode`

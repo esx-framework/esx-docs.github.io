@@ -1,10 +1,10 @@
 # Installation
 
-Instructions on how to download and install the basics of **ES Extended**.
+Instructions on how to download and install the basics of **ESX LEGACY**.
 
 ## Requirements
 
-- [oxmysql](https://github.com/overextended/oxmysql)
+- [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
 - spawnmanager
 
 ## Download
@@ -18,7 +18,7 @@ Instructions on how to download and install the basics of **ES Extended**.
 
 ### Manually
 
-- Download and Install `oxmysql` - [Documentation](https://overextended.github.io/oxmysql/)
+- Install `oxmysql(https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
 - Download <https://github.com/esx-framework/esx-legacy>
 
 ## Install
@@ -26,8 +26,7 @@ Instructions on how to download and install the basics of **ES Extended**.
 - Extract the `[esx]` and `[esx_addons]` folders
 - Place Them into the `Resouces` folder in your server.
 - Go into the `[SQL]` Folder
-- Import `base.sql` in your database
-- Import `addons.sql` in your database
+- Import `legacy.sql` in your database
 
 - Make Sure you are **NOT** Using any of these resources:
   - `essentialmode`

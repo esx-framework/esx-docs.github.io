@@ -18,7 +18,7 @@ Instructions on how to download and install the basics of **ESX LEGACY**.
 
 ### Manually
 
-- Install `oxmysql(https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
+- Install [oxmysql](https://github.com/overextended/oxmysql/releases/download/v1.9.3/oxmysql-v1.9.3.zip)
 - Download <https://github.com/esx-framework/esx-legacy>
 
 ## Install
@@ -35,22 +35,4 @@ Instructions on how to download and install the basics of **ESX LEGACY**.
   - `fivem-map-hipster`
   - `default_spawnpoint`
   
-- Make sure your `server.cfg` to looks similar to this
-
-```diff
-add_principal group.admin group.user
-add_ace resource.es_extended command.add_ace allow
-add_ace resource.es_extended command.add_principal allow
-add_ace resource.es_extended command.remove_principal allow
-add_ace resource.es_extended command.stop allow
-
-
-ensure oxmysql
-ensure spawnmanager
-ensure es_extended
-
-ensure esx_menu_default
-ensure esx_menu_list
-ensure esx_menu_dialog
-```
-
+- Make sure your `server.cfg` looks similar to the `server.cfg` Provided.

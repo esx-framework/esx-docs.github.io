@@ -1,7 +1,0 @@
-title: ES Extended Docs
-arrange:
-  - index.md
-  - installation.md
-  - common
-  - client
-  - server

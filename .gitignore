@@ -1,13 +1,11 @@
 # Dependencies
-node_modules
+/node_modules
 
 # Production
 /build
-plugins/*/compiled
 
 # Generated files
 .docusaurus
-.netlify
 .cache-loader
 
 # Misc
@@ -16,15 +14,7 @@ plugins/*/compiled
 .env.development.local
 .env.test.local
 .env.production.local
-snippets/db
-snippets/package-lock.json
-snippets/yarn.lock
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-/.idea/
-.log
-src/css/infima.css
-.ignore

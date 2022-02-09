@@ -1,203 +1,129 @@
-const visit = require("unist-util-visit")
-const ssrTemplate = require("./src/internals/ssr.template")
-const consts = require("./src/config/consts")
-const customFields = require("./src/config/customFields")
-const math = require("remark-math")
-const katex = require("rehype-katex")
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
 
-function variable() {
-  const RE_VAR = /{@([\w-_]+)@}/g
-  const getVariable = (full, partial) =>
-    partial ? customFields[partial] : full
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-  function textVisitor(node) {
-    node.value = node.value.replace(RE_VAR, getVariable)
-  }
-
-  function linkVisitor(node) {
-    node.url = node.url.replace(RE_VAR, getVariable)
-
-    if (node.title) {
-      node.title = node.title.replace(RE_VAR, getVariable)
-    }
-  }
-
-  function transformer(ast) {
-    visit(ast, "text", textVisitor)
-    visit(ast, "code", textVisitor)
-    visit(ast, "link", linkVisitor)
-  }
-
-  return transformer
-}
-
+/** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "The leading FiveM framework",
-  tagline: "The leading FiveM framework",
-  url: `https://${consts.domain}`,
+  title: "ESX",
+  tagline: "The Leading FiveM Framework",
+  url: "https://docs.esx-framework.org",
   baseUrl: "/",
-  baseUrlIssueBanner: false,
-  favicon: "src/img/favicon.png",
-  organizationName: "ESX-Framework",
-  projectName: "esx-framework",
-  customFields: customFields,
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  plugins: [
-    require.resolve("./plugins/fetch-latest-release/index"),
-    require.resolve("./plugins/fetch-repo/index"),
-    require.resolve("./plugins/fetch-contributors-count/index"),
-    require.resolve("./plugins/webpack-ts/index"),
-    require.resolve("./plugins/optimize/index"),
-    require.resolve("./plugins/manifest/index"),
-    require.resolve("./plugins/delay-code-block-appearance"),
-    [
-      require.resolve("./plugins/tutorial/compiled/index"),
-      {
-        remarkPlugins: [variable, math],
-        rehypePlugins: [katex],
-      },
-    ],
-    [
-      "@docusaurus/plugin-pwa",
-      {
-        pwaHead: [
-          {
-            tagName: "link",
-            rel: "manifest",
-            href: "/manifest.webmanifest",
-          },
-          {
-            tagName: "meta",
-            name: "theme-color",
-            content: "#7EC8E3",
-          },
-          {
-            tagName: "meta",
-            name: "apple-mobile-web-app-capable",
-            content: "yes",
-          },
-          {
-            tagName: "meta",
-            name: "apple-mobile-web-app-status-bar-style",
-            content: "#21222c",
-          },
-        ],
-      },
-    ],
-  ],
-  themeConfig: {
-    announcementBar: {
-      id: "github-star",
-    },
-    colorMode: {
-      defaultMode: "dark",
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-    },
-    image: "/img/og.gif",
-    gtag: {
-      trackingID: "GTM-PVR7M2G",
-      anonymizeIP: true,
-    },
-    prism: {
-      defaultLanguage: "questdb-sql",
-      additionalLanguages: ["rust", "csharp", "julia", "cpp", "java"],
-      theme: require("./src/internals/prism-github"),
-      darkTheme: require("./src/internals/prism-dracula"),
-    },
-    algolia: {
-      apiKey: "75e3329b163256ab9d0442c18600ec8f",
-      indexName: "ESX",
-    },
-    navbar: {
-      title: "ESX",
-      logo: {
-        alt: "ESX-Framework",
-        src: "src/img/favicon.png",
-      },
-      items: [
-        {
-          label: "Get Started",
-          position: "left",
-          items: [
-            {
-              label: "Infinity",
-              to: "/docs/infinity/installation/",
-            },
-            {
-              label: "legacy",
-              to: "/docs/legacy/installation/",
-            },
-            {
-              label: "reborn",
-              to: "/docs/reborn/installation/",
-            },
-          ],
-        },
-        {
-          label: "Community",
-          position: "left",
-          items: [
-            {
-              label: "GitHub",
-              to: customFields.githubUrl,
-            },
-            {
-              label: "Discord",
-              to: "https://discord.gg/ztzKWAF",
-            },
-          ],
-        },
-        {
-          label: "Documentation",
-          to: "/docs/introduction/",
-          position: "left",
-        },
-      ],
-    },
-    footer: {
-      links: [
-      ],
-    },
-  },
+  favicon: "img/favicon.ico",
+  organizationName: "esx-framework", // Usually your GitHub org/user name.
+  projectName: "Infinity", // Usually your repo name.
+
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
-          remarkPlugins: [variable, math],
-          rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
+          // Please change this to your repo.
+          editUrl:
+            "https://github.com/esx-framework/esx-docs.github.io/tree/Develop"
         },
         blog: {
-          remarkPlugins: [variable, math],
-          rehypePlugins: [katex],
-          feedOptions: {
-            type: "all",
-            copyright: customFields.copyright,
-          },
           showReadingTime: true,
-        },
-        sitemap: {
-          // Removed: https://github.com/ekalinin/sitemap.js/blob/master/CHANGELOG.md#50-breaking-changes
-          // cacheTime: 600 * 1000, // 600 sec - cache purge period
-          changefreq: "daily",
-          priority: 0.7,
-          trailingSlash: true,
+          // Please change this to your repo.
+          editUrl:
+            "https://github.com/esx-framework/esx-docs.github.io/tree/Develop/"
         },
         theme: {
-          customCss: [
-            require.resolve("./src/css/katex.min.css"),
-            require.resolve("./src/css/_global.css"),
-          ],
-        },
-      },
-    ],
+          customCss: require.resolve("./src/css/custom.scss")
+        }
+      })
+    ]
   ],
-}
+  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense"],
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      googleAdsense: {
+        dataAdClient: "ca-pub-9580213111363531"
+      },
+      navbar: {
+        title: "ESX Framework",
+        logo: {
+          alt: "ESX Logo",
+          src:
+            "https://cdn.discordapp.com/attachments/936727454087806987/937875927717785660/30593074.png"
+        },
+        items: [
+          {
+            type: "doc",
+            docId: "legacy/installation",
+            position: "left",
+            label: "ESX Legacy"
+          },
+          {
+            type: "doc",
+            docId: "Infinity/installation",
+            position: "left",
+            label: "ESX Infinity"
+          },
+          {
+            to: "/docs/infinity/installation",
+            label: "Blog",
+            position: "left"
+          },
+          {
+            href: "https://github.com/esx-framework",
+            label: "GitHub",
+            position: "right"
+          }
+        ]
+      },
+      footer: {
+        style: "dark",
+        links: [
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "ESX Legacy",
+                to: "/docs/legacy/installation"
+              },
+              {
+                label: "ESX Infinity",
+                to: "/docs/Infinity/installation"
+              }
+            ]
+          },
+          {
+            title: "Community",
+            items: [
+              {
+                label: "Discord",
+                href: "https://discord.gg/ztzKWAF"
+              }
+            ]
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Blog",
+                to: "/docs/infinity/installation"
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/esx-framework"
+              }
+            ]
+          }
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} ESX Framework.`
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme
+      }
+    })
+};
 
-module.exports = {
-  ...config,
-  ssrTemplate: ssrTemplate(config),
-}
+module.exports = config;

@@ -39,13 +39,10 @@ const config = {
       })
     ]
   ],
-  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-google-adsense"],
+  plugins: ["docusaurus-plugin-sass"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      googleAdsense: {
-        dataAdClient: "ca-pub-9580213111363531"
-      },
       navbar: {
         title: "ESX Framework",
         logo: {

@@ -24,10 +24,6 @@ function Hero() {
             </h1>
 
             <h2 className="hero-subtitle">
-              <Typed
-                strings={[">_ Industry Leading Roleplay Framework"]}
-                typeSpeed={75}
-              ></Typed>
             </h2>
 
             <div className="boxes">

@@ -24,12 +24,13 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
-      - name: Build & Install
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
+      - name: Yarn Install
+        uses: borales/actions-yarn@v2.0.0
+          with:
+            cmd: install
 
-      - uses: borales/actions-yarn@v2.0.0
+      name: Build
+      uses: borales/actions-yarn@v2.0.0
         with:
           cmd: build
       - name: Push

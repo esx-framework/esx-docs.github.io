@@ -26,14 +26,13 @@ jobs:
 
       - name: Yarn Install
         uses: borales/actions-yarn@v2.0.0
-        with:
-        cmd: install
+          with:
+            cmd: install
 
-      - name: Build
-        uses: borales/actions-yarn@v2.0.0
+      name: Build
+      uses: borales/actions-yarn@v2.0.0
         with:
-        cmd: build
-
+          cmd: build
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:

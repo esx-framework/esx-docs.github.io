@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 18
     strategy:
       matrix:
-        node-version: [17.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build and Push
@@ -24,11 +24,14 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
-      - name: Install all dependencies
-        run: npm install --force
+      - name: Build & Install
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
 
-      - name: Build
-        run: npm run build # The build command of your project
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:

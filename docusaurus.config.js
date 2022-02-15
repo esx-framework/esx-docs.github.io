@@ -25,13 +25,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/esx-framework/esx-docs.github.io/tree/Develop"
+            "https://github.com/esx-framework/esx-docs.github.io/tree/develop"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/esx-framework/esx-docs.github.io/tree/Develop/"
+            "https://github.com/esx-framework/esx-docs.github.io/tree/develop/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.scss")
@@ -59,7 +59,7 @@ const config = {
           },
           {
             type: "doc",
-            docId: "Infinity/installation",
+            docId: "infinity/installation",
             position: "left",
             label: "ESX Infinity"
           },
@@ -87,7 +87,7 @@ const config = {
               },
               {
                 label: "ESX Infinity",
-                to: "/docs/Infinity/installation"
+                to: "/docs/infinity/installation"
               }
             ]
           },
